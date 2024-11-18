@@ -1,8 +1,15 @@
+import { FooterComponent } from "../components/footer-component/footer-component"
+import { HeaderComponent } from "../components/header-component/header-component"
+
 export const CreateHomePage: React.FC = () => {
     return(
-        <div>
-            <h1>Welcome to Remy's Homepage</h1>
-            <p>This is the default page for Remy's portfolio. You can customize this page by editing the App.tsx file in the src folder.</p>
-        </div>
+        <>
+            <HeaderComponent />
+            <div>
+                <h1>Welcome to Remy's Homepage</h1>
+                <p>This is the default page for Remy's portfolio. You can customize this page by editing the App.tsx file in the src folder.</p>
+            </div>
+            <FooterComponent/>
+        </>
     )
 }
