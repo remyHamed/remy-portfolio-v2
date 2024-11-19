@@ -1,117 +1,110 @@
-@keyframes slidein {
-    from {
-        transform: translateX(-100%);
+/* phone */
+@media (max-width: 576px) {
+    .header {
+      background: blue;
     }
-    to {
-        transform: translateX(0);
+  }
+
+/* Tablet */
+@media (min-width: 577px) and (max-width: 768px) {
+    .header {
+      background: yellow;
     }
 }
 
-@keyframes skewAnimation {
-    from {
-        transform: rotateY(-24deg) rotateZ(-8deg);
-        opacity: 0;
+/* small laptop */
+@media (min-width: 769px) and (max-width: 992px) {
+    .header {
+        background: red;
     }
-    to {
-        transform: rotateY(0deg) rotateZ(0deg);
+}
+
+/* large screen*/
+@media (min-width: 993px) {
+    ul {
+        list-style-type: none;
+    }
+    
+    header {
+        font-family: 'Clarkson', sans-serif;
+        margin-top: 0;
+        padding-bottom: 1.5rem;
+        height: 10vh;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.8);
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        position: fixed;
+        z-index: 100;
+    }
+    
+    header:hover {
+        background-color: rgba(0, 0, 0, 1);
+        transition: 0.3s;
+    }
+    
+    #logo-header-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    
+    #logo-header {
+        max-width: 70px;
+        height: auto;
+    }
+    
+    header nav {
+        height: auto;
+        margin: auto;
+    }
+    
+    header ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-block-start: 0;
+        margin-block-end: 0;
+        padding: 1rem;
+    }
+    
+    header ul li {
+        height: 100%;
+        padding: 2rem;
+        font-weight: bold;
         opacity: 1;
     }
-}
-
-
-ul {
-    list-style-type: none;
-}
-
-header {
-
-    font-family: 'Clarkson', sans-serif;
-
-    margin-top:  0;
-    padding-bottom: 1.5rem;
-    height: 10vh;
-    color: white;
-
-    background-color: rgb(0, 0, 0, 0.8);
     
-    width: 100%;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-
-    position: fixed;
-}
-
-header:hover {
-    background-color: rgb(0, 0, 0, 1);
-    transition: 0.3s;
-}
-
-#logo-header-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-
-}
-
-#logo-header {
-    max-width: 70px;
-    height: auto;
-}
-
-header nav {    
-    height: auto;
-    margin: auto
-}
-
-header ul {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-
-    margin-block-start: 0;  
-    margin-block-end: 0;
-
+    .dot {
+        height: 10px;
+        width: 10px;
+        background-color: white;
+        display: inline-block;
+        margin-left: 0.5rem;
+        border-radius: 50%;
+        transition: 0.3s;
+    }
     
-    padding: 1rem;
-}
-
-header ul li {
-    height: 100%;
-    padding: 2rem;
-    font-weight: bold;
-    opacity: 1;
-}
-
-.dot {
-    height: 10px;
-    width: 10px;
-    background-color:white;
-    display: inline-block;
-    margin-left: 0.5rem;
-    border-radius: 50%;
-
-    transition: 0.3s;
-}
-
-header ul li:hover .dot{
-    height: 10px;
-    width: 10px;
-    background-color: #0dc06d;
-    border-radius: 50%;
-    display: inline-block;
-    margin-left: 0.5rem;
-}
-
-header ul li:hover {
-    background-color: rgb(0, 0, 0);
-    border-radius: 80px 80px;
-    color: white;
-    transform: scale(1.1); 
+    header ul li:hover .dot {
+        height: 10px;
+        width: 10px;
+        background-color: #0dc06d;
+        border-radius: 50%;
+        display: inline-block;
+        margin-left: 0.5rem;
+    }
     
+    header ul li:focus,
+    header ul li:hover {
+        background-color: rgb(0, 0, 0);
+        border-radius: 80px 80px;
+        color: white;
+        transform: scale(1.1);
+    }
 }
