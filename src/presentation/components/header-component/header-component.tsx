@@ -3,7 +3,7 @@ import "./style.scss";
 import logo from "/src/assets/logo/logo.png";
 
 export const HeaderComponent: React.FC = () => {
-    const divRef = useRef<HTMLDivElement | null>(null); 
+    const divRef = useRef<HTMLDivElement | null>(null);
     const [showlinks, setShowlinks] = useState(false);
 
     const handleShowLinks = () => {
@@ -11,7 +11,7 @@ export const HeaderComponent: React.FC = () => {
         setShowlinks(newShowLinks);
 
         if (!divRef.current) return;
-        
+
         if (newShowLinks) {
             divRef.current.style.backgroundColor = "black";
             divRef.current.style.left = "0";
@@ -29,7 +29,7 @@ export const HeaderComponent: React.FC = () => {
                 <img id="logo-header" src={logo} alt="Logo" />
                 <h3>Remy Hamed</h3>
             </div>
-            <nav className={`${showlinks ? "show-header" : "hide-header"}`}>
+            <nav>
                 <ul>
                     <li>
                         <a href="index.html">Home</a>

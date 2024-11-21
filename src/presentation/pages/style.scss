@@ -1,18 +1,318 @@
 /* phone */
 @media (max-width: 576px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1rem;
+        flex: 1;
+        
+        background : url('/src/assets/backgrounds/Maison-Japonaise-traditionelle-4.jpg'); 
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.8;
+
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 12vh;
+    }
+
+
+    .div-1 {
+        height: 100%;
+        width: 100%;   
+        color: white;
+
+        display: flex;
+        flex-direction: column;
+
+        margin: auto;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+        background-color: rgb(0, 0, 0, 0.9);
+    }
+
+    .main-div {
+        height: 100%;
+        background-color: rgb(16, 128, 194);
+        max-width: 50%;
+        color: white;
+
+        border-radius: 20px 20px 0px 0px;
+
+        display: flex;
+        flex-direction: row;
+
+        margin: auto;
+    }
+
+
+    .text-container {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(0, 0, 0, 0);
+        border-radius: 80px;
+        padding: 2rem;
+
+        animation: skewAnimation 6s cubic-bezier(.23, 1, .32, 1) forwards .4s;
+    }
+
+    .text-container div {
+        text-align: justify;
+        text-justify: inter-word;
+        line-height: 2;
+
+        font-family: "Roboto";
+        font-weight: 700;
+
+    }
+
+    .dive-2 {
+        background-color: red;
+    }
+
+    .div-2 div {
+        border-radius: 80px;
+        padding: 1rem;
+
+    }
+
+    .div-2 div div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 3rem;
+    }
+
+    .div-2 div div img {
+        max-height: 100px;
+        opacity: 1;
+        transition: transform 0.3s ease;
+        border-radius: 20px;
+        background-color: white;
+    }
+
+
+
+    .div-2 div div img:hover {
+        transform: scale(1.25); 
+    }
 
   }
 
 /* Tablet */
 @media (min-width: 577px) and (max-width: 768px) {
     .container {
-        background-color: pink;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1rem;
+        flex: 1;
+        
+        background : url('/src/assets/backgrounds/Maison-Japonaise-traditionelle-4.jpg'); 
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.8;
+
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 12vh;
     }
 
+
+    .div-1 {
+        height: 100%;
+        width: 100%;   
+        color: white;
+
+        display: flex;
+        flex-direction: column;
+
+        margin: auto;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+        background-color: rgb(0, 0, 0, 0.9);
+    }
+
+    .main-div {
+        height: 100%;
+        background-color: rgb(16, 128, 194);
+        max-width: 50%;
+        color: white;
+
+        border-radius: 20px 20px 0px 0px;
+
+        display: flex;
+        flex-direction: row;
+
+        margin: auto;
+    }
+
+
+    .text-container {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10%;
+        margin-right: 10%;
+        background-color: rgb(0, 0, 0, 0);
+        border-radius: 80px;
+        padding: 2rem;
+
+        animation: skewAnimation 6s cubic-bezier(.23, 1, .32, 1) forwards .4s;
+    }
+
+    .text-container div {
+        text-align: justify;
+        text-justify: inter-word;
+        line-height: 2;
+
+        font-family: "Roboto";
+        font-weight: 700;
+
+    }
+
+    .dive-2 {
+        background-color: red;
+    }
+
+    .div-2 div {
+        border-radius: 80px;
+        padding: 1rem;
+
+    }
+
+    .div-2 div div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 3rem;
+    }
+
+    .div-2 div div img {
+        max-height: 150px;
+        opacity: 1;
+        transition: transform 0.3s ease;
+        border-radius: 20px;
+        background-color: white;
+    }
+
+
+
+    .div-2 div div img:hover {
+        transform: scale(1.25); 
+    }
 }
 
 /* small laptop */
 @media (min-width: 769px) and (max-width: 992px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1rem;
+        flex: 1;
+        
+        background : url('/src/assets/backgrounds/Maison-Japonaise-traditionelle-4.jpg'); 
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.8;
+
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 12vh;
+    }
+
+
+    .div-1 {
+        height: 100%;
+        width: 100%;   
+        color: white;
+
+        display: flex;
+        flex-direction: column;
+
+        margin: auto;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+        background-color: rgb(0, 0, 0, 0.9);
+    }
+
+    .main-div {
+        height: 100%;
+        background-color: rgb(16, 128, 194);
+        max-width: 50%;
+        color: white;
+
+        border-radius: 20px 20px 0px 0px;
+
+        display: flex;
+        flex-direction: row;
+
+        margin: auto;
+    }
+
+
+    .text-container {
+        display: flex;
+        flex-direction: column;
+        margin-left: 30%;
+        margin-right: 30%;
+        background-color: rgb(0, 0, 0, 0);
+        border-radius: 80px;
+        padding: 2rem;
+
+        animation: skewAnimation 6s cubic-bezier(.23, 1, .32, 1) forwards .4s;
+    }
+
+    .text-container div {
+        text-align: justify;
+        text-justify: inter-word;
+        line-height: 2;
+
+        font-family: "Roboto";
+        font-weight: 700;
+
+    }
+
+    .dive-2 {
+        background-color: red;
+    }
+
+    .div-2 div {
+        border-radius: 80px;
+        padding: 1rem;
+
+    }
+
+    .div-2 div div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 3rem;
+    }
+
+    .div-2 div div img {
+        max-height: 200px;
+        opacity: 1;
+        transition: transform 0.3s ease;
+        border-radius: 20px;
+        background-color: white;
+    }
+
+
+
+    .div-2 div div img:hover {
+        transform: scale(1.25); 
+    }
 
 }
 
