@@ -1,424 +1,161 @@
-/* phone */
-@media (max-width: 576px) {
-    .container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        gap: 1rem;
-        flex: 1;
-        
-        background : url('/src/assets/backgrounds/Maison-Japonaise-traditionelle-4.jpg'); 
-        background-repeat: no-repeat;
-        background-size: cover;
-        opacity: 0.8;
+$background-url: '/src/assets/backgrounds/Maison-Japonaise-traditionelle-4.jpg';
+$container-padding-top: 12vh;
+$text-font-family: "Roboto";
+$text-line-height: 2;
+$background-opacity: 0.8;
 
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        padding-top: 12vh;
-    }
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  flex: 1;
 
+  background: url($background-url) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: $background-opacity;
 
-    .div-1 {
-        height: 100%;
-        width: 100%;   
-        color: white;
+  padding-top: $container-padding-top;
+}
 
-        display: flex;
-        flex-direction: column;
+.div-1 {
+  height: 100%;
+  width: 100%;
+  color: white;
 
-        margin: auto;
-        margin-top: 3rem;
-        margin-bottom: 1rem;
-        background-color: rgb(0, 0, 0, 0.9);
-    }
+  display: flex;
+  flex-direction: column;
 
-    .main-div {
-        height: 100%;
-        background-color: rgb(16, 128, 194);
-        max-width: 50%;
-        color: white;
+  margin: auto;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  background-color: rgba(0, 0, 0, 0.9);
+}
 
-        border-radius: 20px 20px 0px 0px;
+.main-div {
+  height: 100%;
+  max-width: 50%;
+  background-color: rgb(16, 128, 194);
+  color: white;
 
-        display: flex;
-        flex-direction: row;
+  border-radius: 20px 20px 0 0;
 
-        margin: auto;
-    }
+  display: flex;
+  flex-direction: row;
 
+  margin: auto;
+}
 
-    .text-container {
-        display: flex;
-        flex-direction: column;
-        background-color: rgb(0, 0, 0, 0);
-        border-radius: 80px;
-        padding: 2rem;
+.text-container {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  border-radius: 80px;
+  padding: 2rem;
 
-        animation: skewAnimation 6s cubic-bezier(.23, 1, .32, 1) forwards .4s;
-    }
+  animation: skewAnimation 6s cubic-bezier(0.23, 1, 0.32, 1) forwards 0.4s;
 
-    .text-container div {
-        text-align: justify;
-        text-justify: inter-word;
-        line-height: 2;
+  div {
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: $text-line-height;
+    font-family: $text-font-family;
+    font-weight: 700;
+  }
+}
 
-        font-family: "Roboto";
-        font-weight: 700;
+.div-2 {
+  div {
+    border-radius: 80px;
+    padding: 1rem;
 
-    }
+    div {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 3rem;
 
-    .dive-2 {
-        background-color: red;
-    }
-
-    .div-2 div {
-        border-radius: 80px;
-        padding: 1rem;
-
-    }
-
-    .div-2 div div {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        gap: 3rem;
-    }
-
-    .div-2 div div img {
+      img {
         max-height: 100px;
         opacity: 1;
         transition: transform 0.3s ease;
         border-radius: 20px;
         background-color: white;
+
+        &:hover {
+          transform: scale(1.25);
+        }
+      }
     }
+  }
+}
 
+@media (max-width: 320px) {
 
+  .text-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
 
-    .div-2 div div img:hover {
-        transform: scale(1.25); 
-    }
-
+  .div-2 div div img {
+    max-height: 60px;
   }
 
-/* Tablet */
-@media (min-width: 577px) and (max-width: 768px) {
-    .container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        gap: 1rem;
-        flex: 1;
-        
-        background : url('/src/assets/backgrounds/Maison-Japonaise-traditionelle-4.jpg'); 
-        background-repeat: no-repeat;
-        background-size: cover;
-        opacity: 0.8;
-
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        padding-top: 12vh;
-    }
-
-
-    .div-1 {
-        height: 100%;
-        width: 100%;   
-        color: white;
-
-        display: flex;
-        flex-direction: column;
-
-        margin: auto;
-        margin-top: 3rem;
-        margin-bottom: 1rem;
-        background-color: rgb(0, 0, 0, 0.9);
-    }
-
-    .main-div {
-        height: 100%;
-        background-color: rgb(16, 128, 194);
-        max-width: 50%;
-        color: white;
-
-        border-radius: 20px 20px 0px 0px;
-
-        display: flex;
-        flex-direction: row;
-
-        margin: auto;
-    }
-
-
-    .text-container {
-        display: flex;
-        flex-direction: column;
-        margin-left: 10%;
-        margin-right: 10%;
-        background-color: rgb(0, 0, 0, 0);
-        border-radius: 80px;
-        padding: 2rem;
-
-        animation: skewAnimation 6s cubic-bezier(.23, 1, .32, 1) forwards .4s;
-    }
-
-    .text-container div {
-        text-align: justify;
-        text-justify: inter-word;
-        line-height: 2;
-
-        font-family: "Roboto";
-        font-weight: 700;
-
-    }
-
-    .dive-2 {
-        background-color: red;
-    }
-
-    .div-2 div {
-        border-radius: 80px;
-        padding: 1rem;
-
-    }
-
-    .div-2 div div {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        gap: 3rem;
-    }
-
-    .div-2 div div img {
-        max-height: 150px;
-        opacity: 1;
-        transition: transform 0.3s ease;
-        border-radius: 20px;
-        background-color: white;
-    }
-
-
-
-    .div-2 div div img:hover {
-        transform: scale(1.25); 
-    }
 }
 
-/* small laptop */
-@media (min-width: 769px) and (max-width: 992px) {
-    .container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        gap: 1rem;
-        flex: 1;
-        
-        background : url('/src/assets/backgrounds/Maison-Japonaise-traditionelle-4.jpg'); 
-        background-repeat: no-repeat;
-        background-size: cover;
-        opacity: 0.8;
-
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        padding-top: 12vh;
-    }
-
-
-    .div-1 {
-        height: 100%;
-        width: 100%;   
-        color: white;
-
-        display: flex;
-        flex-direction: column;
-
-        margin: auto;
-        margin-top: 3rem;
-        margin-bottom: 1rem;
-        background-color: rgb(0, 0, 0, 0.9);
-    }
-
-    .main-div {
-        height: 100%;
-        background-color: rgb(16, 128, 194);
-        max-width: 50%;
-        color: white;
-
-        border-radius: 20px 20px 0px 0px;
-
-        display: flex;
-        flex-direction: row;
-
-        margin: auto;
-    }
-
-
-    .text-container {
-        display: flex;
-        flex-direction: column;
-        margin-left: 30%;
-        margin-right: 30%;
-        background-color: rgb(0, 0, 0, 0);
-        border-radius: 80px;
-        padding: 2rem;
-
-        animation: skewAnimation 6s cubic-bezier(.23, 1, .32, 1) forwards .4s;
-    }
-
-    .text-container div {
-        text-align: justify;
-        text-justify: inter-word;
-        line-height: 2;
-
-        font-family: "Roboto";
-        font-weight: 700;
-
-    }
-
-    .dive-2 {
-        background-color: red;
-    }
-
-    .div-2 div {
-        border-radius: 80px;
-        padding: 1rem;
-
-    }
-
-    .div-2 div div {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        gap: 3rem;
-    }
-
-    .div-2 div div img {
-        max-height: 200px;
-        opacity: 1;
-        transition: transform 0.3s ease;
-        border-radius: 20px;
-        background-color: white;
-    }
-
-
-
-    .div-2 div div img:hover {
-        transform: scale(1.25); 
-    }
-
+@media (min-width: 321px) and (max-width: 374px) {
+  .text-container {
+    padding: 1.5rem;
+  }
 }
 
-/* large screen*/
-@media (min-width: 993px) {
-   
-    .container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        gap: 1rem;
-        flex: 1;
-        
-        background : url('/src/assets/backgrounds/Maison-Japonaise-traditionelle-4.jpg'); 
-        background-repeat: no-repeat;
-        background-size: cover;
-        opacity: 0.8;
+@media (min-width: 375px) and (max-width: 424px) {
+  .div-2 div div img {
+    max-height: 90px;
+  }
+}
 
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        padding-top: 12vh;
-    }
+@media (min-width: 425px) and (max-width: 767px) {
+  .div-2 div div img {
+    max-height: 100px;
+  }
+}
 
+@media (min-width: 768px) and (max-width: 1023px) {
+  .text-container {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 
-    .div-1 {
-        height: 100%;
-        width: 100%;   
-        color: white;
+  .div-2 div div img {
+    max-height: 120px;
+  }
+}
 
-        display: flex;
-        flex-direction: column;
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .text-container {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 
-        margin: auto;
-        margin-top: 3rem;
-        margin-bottom: 1rem;
-        background-color: rgb(0, 0, 0, 0.9);
-    }
+  .div-2 div div img {
+    max-height: 150px;
+  }
+}
 
-    .main-div {
-        height: 100%;
-        background-color: rgb(16, 128, 194);
-        max-width: 50%;
-        color: white;
+@media (min-width: 1440px) and (max-width: 2559px) {
+  .text-container {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
 
-        border-radius: 20px 20px 0px 0px;
-
-        display: flex;
-        flex-direction: row;
-
-        margin: auto;
-    }
-
-
-    .text-container {
-        display: flex;
-        flex-direction: column;
-        margin-left: 30%;
-        margin-right: 30%;
-        background-color: rgb(0, 0, 0, 0);
-        border-radius: 80px;
-        padding: 2rem;
-
-        animation: skewAnimation 6s cubic-bezier(.23, 1, .32, 1) forwards .4s;
-    }
-
-    .text-container div {
-        text-align: justify;
-        text-justify: inter-word;
-        line-height: 2;
-
-        font-family: "Roboto";
-        font-weight: 700;
-
-    }
-
-    .dive-2 {
-        background-color: red;
-    }
-
-    .div-2 div {
-        border-radius: 80px;
-        padding: 1rem;
-
-    }
-
-    .div-2 div div {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        gap: 3rem;
-    }
-
-    .div-2 div div img {
-        max-height: 200px;
-        opacity: 1;
-        transition: transform 0.3s ease;
-        border-radius: 20px;
-        background-color: white;
-    }
-
-
-
-    .div-2 div div img:hover {
-        transform: scale(1.25); 
-    }
+@media (min-width: 2560px) {
+  .text-container {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
 }

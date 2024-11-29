@@ -1,7 +1,116 @@
-/* phone */
-@media (max-width: 576px) {
+@media (max-width: 320px) {
+      a, a:hover, a:focus, a:active {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    ul {
+        list-style-type: none;
+    }
+   
+    
+    header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+        height: 100%;
+        z-index: 100;
+        color: white;
+        background-color:"transparent";
+        left: -110%;
+    }
 
-    a, a:hover, a:focus, a:active {
+    #logo-header-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    
+    #logo-header {
+        max-width: 70px;
+        height: auto;
+        margin-top: 3vh;
+    }
+
+        
+    #logo-header-div h3 {
+        padding-top: 3vh;
+    }
+    
+    header nav {
+        height: auto;
+        margin: auto;
+    }
+    
+    header ul {
+        display: inline-block;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-block-start: 0;
+        margin-block-end: 0;
+        padding: 1rem;
+    }
+    
+    header ul li {
+        height: 100%;
+        padding-left: 5rem;
+        padding-top: 2rem;
+        font-weight: bold;
+        opacity: 1;
+    }
+    
+    .dot {
+        height: 10px;
+        width: 10px;
+        background-color: white;
+        display: inline-block;
+        margin-left: 0.5rem;
+        border-radius: 50%;
+        transition: 0.3s;
+    }
+    
+    header ul li:hover .dot {
+        height: 10px;
+        width: 10px;
+        background-color: #0dc06d;
+        border-radius: 50%;
+        display: inline-block;
+        margin-left: 0.5rem;
+    }
+    
+    header ul li:focus,
+    header ul li:hover {
+        border-radius: 80px 80px;
+        color: white;
+        transform: scale(1.1);
+    }
+
+    .burger-bar {
+        display: block;
+        width: 40px;
+        height: 3px;
+        position: relative;
+        border-radius: 3px;
+        background-color: white;
+    }
+
+    .navbar_burger {
+        display: flex;
+        flex-direction: column;
+        gap: 1vh;
+        position: fixed;
+        top: 1rem;
+        right: 2rem;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 374px) {
+      a, a:hover, a:focus, a:active {
         text-decoration: none;
         color: inherit;
     }
@@ -18,7 +127,6 @@
         position: fixed;
         bottom: 0;
         height: 100vh;
-        padding: 2rem;
         z-index: 100;
         color: white;
         background-color:"transparent";
@@ -109,13 +217,120 @@
         top: 1rem;
         right: 2rem;
     }
+}
 
-  }
+@media (min-width: 375px) and (max-width: 424px) {
+      a, a:hover, a:focus, a:active {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    ul {
+        list-style-type: none;
+    }
+   
+    
+    header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+        height: 100vh;
+        z-index: 100;
+        color: white;
+        background-color:"transparent";
+        left: -110%;
+    }
 
-/* Tablet */
-@media (min-width: 577px) and (max-width: 1024px) {
+    #logo-header-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    
+    #logo-header {
+        max-width: 70px;
+        height: auto;
+        margin-top: 3vh;
+    }
 
-    a, a:hover, a:focus, a:active {
+        
+    #logo-header-div h3 {
+        padding-top: 3vh;
+    }
+    
+    header nav {
+        height: auto;
+        margin: auto;
+    }
+    
+    header ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-block-start: 0;
+        margin-block-end: 0;
+        padding: 1rem;
+    }
+    
+    header ul li {
+        height: 100%;
+        padding: 2rem;
+        font-weight: bold;
+        opacity: 1;
+    }
+    
+    .dot {
+        height: 10px;
+        width: 10px;
+        background-color: white;
+        display: inline-block;
+        margin-left: 0.5rem;
+        border-radius: 50%;
+        transition: 0.3s;
+    }
+    
+    header ul li:hover .dot {
+        height: 10px;
+        width: 10px;
+        background-color: #0dc06d;
+        border-radius: 50%;
+        display: inline-block;
+        margin-left: 0.5rem;
+    }
+    
+    header ul li:focus,
+    header ul li:hover {
+        border-radius: 80px 80px;
+        color: white;
+        transform: scale(1.1);
+    }
+
+    .burger-bar {
+        display: block;
+        width: 40px;
+        height: 3px;
+        position: relative;
+        border-radius: 3px;
+        background-color: white;
+    }
+
+    .navbar_burger {
+        display: flex;
+        flex-direction: column;
+        gap: 1vh;
+        position: fixed;
+        top: 1rem;
+        right: 2rem;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+      a, a:hover, a:focus, a:active {
         text-decoration: none;
         color: inherit;
     }
@@ -223,13 +438,10 @@
         top: 1rem;
         right: 3rem;
     }
-
 }
 
-/* small laptop */
-@media (min-width: 1024px) and (max-width: 1130px) {
-   
-    a, a:hover, a:focus, a:active {
+@media (min-width: 768px) and (max-width: 1023px) {
+      a, a:hover, a:focus, a:active {
         text-decoration: none;
         color: inherit;
     }
@@ -337,13 +549,220 @@
         top: 1rem;
         right: 3rem;
     }
-
 }
 
-/* large screen*/
-@media (min-width: 1131px) {
+@media (min-width: 1024px) and (max-width: 1439px) {
+     a, a:hover, a:focus, a:active {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    ul {
+        list-style-type: none;
+    }
+   
+    
+    header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+        height: 100vh;
+        padding: 2rem;
+        z-index: 100;
+        color: white;
+        background-color:"transparent";
+        left: -110%;
+    }
 
-    a, a:hover, a:focus, a:active {
+    #logo-header-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    
+    #logo-header {
+        max-width: 70px;
+        height: auto;
+        margin-top: 3vh;
+    }
+
+        
+    #logo-header-div h3 {
+        padding-top: 3vh;
+    }
+    
+    header nav {
+        height: auto;
+        margin: auto;
+    }
+    
+    header ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-block-start: 0;
+        margin-block-end: 0;
+        padding: 1rem;
+    }
+    
+    header ul li {
+        height: 100%;
+        padding: 2rem;
+        font-weight: bold;
+        opacity: 1;
+    }
+    
+    .dot {
+        height: 10px;
+        width: 10px;
+        background-color: white;
+        display: inline-block;
+        margin-left: 0.5rem;
+        border-radius: 50%;
+        transition: 0.3s;
+    }
+    
+    header ul li:hover .dot {
+        height: 10px;
+        width: 10px;
+        background-color: #0dc06d;
+        border-radius: 50%;
+        display: inline-block;
+        margin-left: 0.5rem;
+    }
+    
+    header ul li:focus,
+    header ul li:hover {
+        border-radius: 80px 80px;
+        color: white;
+        transform: scale(1.1);
+    }
+
+    .burger-bar{
+        display: block;
+        width: 40px;
+        height: 3px;
+        position: relative;
+        border-radius: 3px;
+        background-color: white;
+    }
+
+    .navbar_burger {
+        display: flex;
+        flex-direction: column;
+        gap: 1vh;
+        position: fixed;
+        top: 1rem;
+        right: 3rem;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 2559px) {
+     a, a:hover, a:focus, a:active {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+
+    ul {
+        list-style-type: none;
+    }
+    
+    header {
+        font-family: 'Clarkson', sans-serif;
+        margin-top: 0;
+        padding-bottom: 1.5rem;
+        height: 10vh;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.8);
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        position: fixed;
+        z-index: 100;
+    }
+    
+    header:hover {
+        background-color: rgba(0, 0, 0, 1);
+        transition: 0.3s;
+    }
+    
+    #logo-header-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    
+    #logo-header {
+        max-width: 70px;
+        height: auto;
+    }
+    
+    header nav {
+        height: auto;
+        margin: auto;
+    }
+    
+    header ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-block-start: 0;
+        margin-block-end: 0;
+        padding: 1rem;
+    }
+    
+    header ul li {
+        height: 100%;
+        padding: 2rem;
+        font-weight: bold;
+        opacity: 1;
+    }
+    
+    .dot {
+        height: 10px;
+        width: 10px;
+        background-color: white;
+        display: inline-block;
+        margin-left: 0.5rem;
+        border-radius: 50%;
+        transition: 0.3s;
+    }
+    
+    header ul li:hover .dot {
+        height: 10px;
+        width: 10px;
+        background-color: #0dc06d;
+        border-radius: 50%;
+        display: inline-block;
+        margin-left: 0.5rem;
+    }
+    
+    header ul li:focus,
+    header ul li:hover {
+        background-color: rgb(0, 0, 0);
+        border-radius: 80px 80px;
+        color: white;
+        transform: scale(1.1);
+    }
+
+    .navbar_burger {
+        display: none;
+    }
+}
+
+@media (min-width: 2560px) {
+     a, a:hover, a:focus, a:active {
         text-decoration: none;
         color: inherit;
     }
