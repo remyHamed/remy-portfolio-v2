@@ -1,8 +1,9 @@
 import React, { useRef, useState } from "react";
 import "./style.scss";
 import logo from "/src/assets/logo/logo.png";
+import { NavLink } from "react-router-dom";
 
-export const HeaderComponent: React.FC = () => {
+export const HeaderComponent: React.FC = ():React.ReactNode => {
     const divRef = useRef<HTMLDivElement | null>(null);
     const [showlinks, setShowlinks] = useState(false);
 
@@ -42,7 +43,7 @@ export const HeaderComponent: React.FC = () => {
                         <span className="dot"></span>
                     </li>
                     <li>
-                        <a href="pages/my_projects/my_projects.html">Mes Projets</a>
+                    <NavLink to="/my_projects" end>Mes Projets</NavLink>
                         <span className="dot"></span>
                     </li>
                     <li>
