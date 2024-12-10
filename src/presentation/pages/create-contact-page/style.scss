@@ -1,0 +1,39 @@
+.cat-div-container {
+    margin: auto;
+    background-image: url("/assets/backgrounds/contact-bg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contact-card {
+    background-color: rgba(0, 0, 0, 1);
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.contact-card h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.contact-card p {
+    color: white;
+    margin: 0.5rem 0;
+}
+
+.contact-card a {
+    color: white;  
+    text-decoration: none;
+}
+
+.contact-card a:hover {
+    text-decoration: underline;
+}

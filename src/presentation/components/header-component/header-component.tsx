@@ -33,13 +33,13 @@ export const HeaderComponent: React.FC = ():React.ReactNode => {
             <nav>
                 <ul>
                     <li>
-                        <a href="index.html">Home</a>
+                        <NavLink to="/">Home</NavLink>
                         <span className="dot"></span>
                     </li>
                     <li>
-                        <a href="pages/education_and_training/education_and_training.html">
+                        <NavLink to="/education_and_training">
                             Diplôme et Formation
-                        </a>
+                        </NavLink>
                         <span className="dot"></span>
                     </li>
                     <li>
@@ -47,11 +47,11 @@ export const HeaderComponent: React.FC = ():React.ReactNode => {
                         <span className="dot"></span>
                     </li>
                     <li>
-                        <a href="pages/interests/interests.html">Centre d'Intérêt</a>
+                        <NavLink to="/interests">Centre d'Intérêt</NavLink>
                         <span className="dot"></span>
                     </li>
                     <li>
-                        <a href="pages/contact/contact.html">Contact</a>
+                        <NavLink to="/contact">Contact</NavLink>
                         <span className="dot"></span>
                     </li>
                 </ul>
