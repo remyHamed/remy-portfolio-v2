@@ -7,7 +7,7 @@ export const CreateMyProjectPage: React.FC = () :React.ReactNode => {
         <>
             <HeaderComponent />
             <main>
-              <div className="container">
+              <div className="container-my-project">
                 <div className="div-1">
                     <div className="text-container">
                         <h1>Projet Hackathon : Application en réalité augmentée</h1>

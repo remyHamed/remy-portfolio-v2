@@ -10,7 +10,7 @@ export const CreateHomePage: React.FC = () :React.ReactNode => {
         <>
             <HeaderComponent />
             <main>
-                <div className="container">
+                <div className="container-home">
                     <div className="div-1">
                         <div className="text-container">
                             <h1>Développeur full stack</h1>

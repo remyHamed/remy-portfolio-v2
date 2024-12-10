@@ -6,9 +6,9 @@ export const CreateEducationAndTrainingPage: React.FC = ():React.ReactNode => {
         <>
         <HeaderComponent />
             <main>
-                <div className="container">
+                <div className="container-">
                     <div className="div-1">
-                        <div className="text-container">
+                        <div className="text-container-education-and-training">
                             <h1>Master Architecture des Logiciels</h1>
                             <div className="progresse-bar-container">
                                 <div className="progress-bar"></div>
