@@ -1,62 +1,51 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 import "./style.scss";
 import logo from "/src/assets/logo/logo.png";
+import home_icon from "/src/assets/icons/houme-removebg-preview.png";
+import diploma_icon from "/src/assets/icons/diploma-xxl.png";
+import projet_icon from "/src/assets/icons/projet (1).png";
+import hobby_icon from "/src/assets/icons/loisir.png";
+import contact_icon from "/src/assets/icons/communiquer.png";
 import { NavLink } from "react-router-dom";
 
 export const HeaderComponent: React.FC = ():React.ReactNode => {
-    const divRef = useRef<HTMLDivElement | null>(null);
-    const [showlinks, setShowlinks] = useState(false);
-
-    const handleShowLinks = () => {
-        const newShowLinks = !showlinks;
-        setShowlinks(newShowLinks);
-
-        if (!divRef.current) return;
-
-        if (newShowLinks) {
-            divRef.current.style.backgroundColor = "black";
-            divRef.current.style.left = "0";
-            divRef.current.style.transition = "all 0.3s ease-in-out";
-            divRef.current.style.width = "100%";
-        } else {
-            divRef.current.style.backgroundColor = "transparent";
-            divRef.current.style.left = "-110%";
-        }
-    };
-
     return (
-        <header ref={divRef} data-testid="header">
-            <div id="logo-header-div">
-                <img id="logo-header" src={logo} alt="Logo" />
-                <h3>Remy Hamed</h3>
-            </div>
+        <header data-testid="header">
             <nav>
                 <ul>
                     <li>
-                        <NavLink to="/">Home</NavLink>
-                        <span className="dot"></span>
+                        <NavLink to="/">
+                            <img id="logo-header" src={home_icon} alt="Logo" />
+                            <p>Home</p>
+                        </NavLink>
                     </li>
                     <li>
                         <NavLink to="/education_and_training">
-                            Diplôme et Formation
+                            <img id="logo-header" src={diploma_icon} alt="Logo" />
+                            <p>Diplôme et Formation</p>
                         </NavLink>
-                        <span className="dot"></span>
                     </li>
                     <li>
-                    <NavLink to="/my_projects" end>Mes Projets</NavLink>
-                        <span className="dot"></span>
+                        <NavLink to="/my_projects" end>
+                        <img id="logo-header" src={projet_icon} alt="Logo" />
+                            <p>Mes Projets</p>
+                        </NavLink>
                     </li>
                     <li>
-                        <NavLink to="/interests">Centre d'Intérêt</NavLink>
-                        <span className="dot"></span>
+                        <NavLink to="/interests">
+                            <img id="logo-header" src={hobby_icon} alt="Logo" />
+                            <p>Centre d'Intérêt</p>
+                        </NavLink>
                     </li>
                     <li>
-                        <NavLink to="/contact">Contact</NavLink>
-                        <span className="dot"></span>
+                        <NavLink to="/contact">
+                            <img id="logo-header" src={contact_icon} alt="Logo" />
+                            <p>Contact</p>
+                        </NavLink>
                     </li>
                 </ul>
             </nav>
-            <div className="navbar_burger" onClick={handleShowLinks}>
+            <div className="navbar_burger">
                 <div className="burger-bar"></div>
                 <div className="burger-bar"></div>
                 <div className="burger-bar"></div>
