@@ -1,6 +1,5 @@
 import React from "react";
 import "./style.scss";
-import logo from "/src/assets/logo/logo.png";
 import home_icon from "/src/assets/icons/houme-removebg-preview.png";
 import diploma_icon from "/src/assets/icons/diploma-xxl.png";
 import projet_icon from "/src/assets/icons/projet (1).png";
@@ -8,9 +7,9 @@ import hobby_icon from "/src/assets/icons/loisir.png";
 import contact_icon from "/src/assets/icons/communiquer.png";
 import { NavLink } from "react-router-dom";
 
-export const HeaderComponent: React.FC = ():React.ReactNode => {
+export const HeaderComponent: React.FC<{showLinks: Boolean}> = ( props ):React.ReactNode => {
     return (
-        <header data-testid="header">
+        <header data-testid="header" className={`header-sidebar ${props.showLinks ? "active" : ""}`}>
             <nav>
                 <ul>
                     <li>
@@ -45,11 +44,6 @@ export const HeaderComponent: React.FC = ():React.ReactNode => {
                     </li>
                 </ul>
             </nav>
-            <div className="navbar_burger">
-                <div className="burger-bar"></div>
-                <div className="burger-bar"></div>
-                <div className="burger-bar"></div>
-            </div>
         </header>
     );
 };

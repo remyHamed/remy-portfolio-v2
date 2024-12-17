@@ -4,10 +4,42 @@ $text-font-family: "Roboto";
 $text-line-height: 2;
 $background-opacity: 0.8;
 
+h3 {
+  font-family: "Roboto";
+  font-weight: 700;
+  color: white;
+  margin: 0;
+  padding-top: 0.5%;
+  margin-left: 2.5%;
+}
+
 .container-home {
   background: url($background-url) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
+
+  height: 100vh;
+  margin-top: 0;
+
+}
+
+.burger-bar {
+  display: block;
+  width: 40px;
+  height: 3px;
+  position: relative;
+  border-radius: 3px;
+  background-color: white;
+}
+
+.navbar_burger {
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+  position: fixed;
+  top: 1rem;
+  right: 2rem;
+  z-index: 100;
 }
 
 @media (max-width: 320px) {
