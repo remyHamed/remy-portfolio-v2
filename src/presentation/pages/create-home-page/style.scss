@@ -1,9 +1,3 @@
-$background-url: '/src/assets/backgrounds/bck-img.webp';
-$container-padding-top: 12vh;
-$text-font-family: "Roboto";
-$text-line-height: 2;
-$background-opacity: 0.8;
-
 h3 {
   font-family: "Roboto";
   font-weight: 700;
@@ -14,7 +8,7 @@ h3 {
 }
 
 .container-home {
-  background: url($background-url) no-repeat center;
+  background: url('/src/assets/backgrounds/fuji/paysage-lac-montagnes-fotomelia-1560x860.jpg') no-repeat center;
   background-size: cover;
   background-attachment: fixed;
 
@@ -68,20 +62,50 @@ h3 {
 }
 
 .home-paragraphe {
-  font-size: 30px;
+  font-size: 16px;
   margin-left: 22px;
 }
 
 .home-list {
-  font-size: 30px;
+  font-size: 15px;
   margin-left: 20px;
+  margin-top: 4vh;
+  display: flex;
+  flex-direction: row;
+
 }
 
 .title-home {
   padding-top: 2%;
 }
 
+.illustration_coding {
+  background-image: url("/src/assets/coding-img/ai-generated-8237711_1280.webp");
+  height: 60vh;
+  background-size: cover;
+  min-width: 60vh;
+  border-radius: 20px;
 
+  background-position: -200px 0; 
+  background-repeat: no-repeat; 
+  background-size: auto;
+}
+
+.list {
+  padding-right: 5vh;
+  text-align: justify;
+  line-height: 2.5;
+  font-size: 16px;
+}
+.social-media-icons {
+  padding-top: 6vh;
+  padding-right: 1vh;
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
 
 @media (max-width: 320px) {
 

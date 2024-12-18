@@ -22,7 +22,7 @@ export const CreateEducationAndTrainingPage: React.FC = ():React.ReactNode => {
                     <h3 className="title-home">Rémy Hamed</h3>
                 </div>
                 <div  className="">
-                    <div className="home-div-container">
+                    <div className="ed-div-container">
                         <div>
                             <div className="text-container-education-and-training">
                                 <h4>Master Architecture des Logiciels</h4>
