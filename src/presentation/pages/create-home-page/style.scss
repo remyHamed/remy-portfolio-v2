@@ -1,4 +1,4 @@
-$background-url: '/src/assets/backgrounds/fuji/mont-fuji-photos-images-gratuites-fotomelia-1560x1040.jpg';
+$background-url: '/src/assets/backgrounds/bck-img.webp';
 $container-padding-top: 12vh;
 $text-font-family: "Roboto";
 $text-line-height: 2;
@@ -41,6 +41,47 @@ h3 {
   right: 2rem;
   z-index: 100;
 }
+
+.home-div {
+  background-color:#183F60;
+
+  color: white;
+
+  border-radius: 20px;
+
+  width: 60%;
+  height: 80%;
+  
+  margin-left: 5%;
+  margin-top: 2%;
+
+  padding-top: 1%;
+  padding-right: 4%;
+
+  opacity: 78%;
+
+  bottom: 0%;
+}
+
+.home-div-container {
+  margin-left: 4%;
+}
+
+.home-paragraphe {
+  font-size: 30px;
+  margin-left: 22px;
+}
+
+.home-list {
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.title-home {
+  padding-top: 2%;
+}
+
+
 
 @media (max-width: 320px) {
 
