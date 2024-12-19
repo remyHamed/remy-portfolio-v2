@@ -1,4 +1,3 @@
-import { FooterComponent } from "../../components/footer-component/footer-component";
 import { HeaderComponent } from "../../components/header-component/header-component";
 import "./style.scss";
 
@@ -122,7 +121,6 @@ export const CreateMyProjectPage: React.FC = () :React.ReactNode => {
                 </div>
             </div> 
             </main>
-            <FooterComponent/>
         </>
     );
 }

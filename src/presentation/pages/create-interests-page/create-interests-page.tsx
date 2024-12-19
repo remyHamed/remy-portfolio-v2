@@ -1,4 +1,3 @@
-import { FooterComponent } from "../../../presentation/components/footer-component/footer-component";
 import { HeaderComponent } from "../../../presentation/components/header-component/header-component";
 
 export const CreateInterestsPage: React.FC = ():React.ReactNode => {
@@ -25,7 +24,6 @@ export const CreateInterestsPage: React.FC = ():React.ReactNode => {
                 </div>
             </div>
             </main>
-            <FooterComponent/>
         </>
     );
 };

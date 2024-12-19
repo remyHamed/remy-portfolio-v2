@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { FooterComponent } from "../../../presentation/components/footer-component/footer-component";
 import { HeaderComponent } from "../../../presentation/components/header-component/header-component";
 
 export const CreateEducationAndTrainingPage: React.FC = ():React.ReactNode => {
