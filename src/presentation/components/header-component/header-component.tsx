@@ -7,7 +7,7 @@ export const HeaderComponent: React.FC<{}> = ():React.ReactNode => {
         <header data-testid="header">
             <h1>Remy Portfolio</h1>
             <nav>
-                <ul>
+                <ul className="header-list">
                     <li>
                         <NavLink to="/">
                             <p>Home</p>

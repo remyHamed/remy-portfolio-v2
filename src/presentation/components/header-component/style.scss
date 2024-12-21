@@ -8,7 +8,7 @@ nav {
     padding-right: 15%;
 }
 
-ul {
+.header-list {
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -17,7 +17,7 @@ ul {
     padding: 0;
 }
 
-ul li p {
+.header-list li p {
     color: #FFFFFF;
     font-size: 16px;
     text-transform: uppercase;
@@ -25,7 +25,7 @@ ul li p {
     position: relative;
 }
 
-ul li::after {
+.header-list li::after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -37,7 +37,7 @@ ul li::after {
     transition: width 0.3s ease-in-out;
 }
 
-ul li:hover::after {
+.header-list li:hover::after {
     width: 100%;
 }
 
@@ -49,13 +49,13 @@ header h1 {
     margin-top: 3vh;
 }
 
-header ul li {
+header .header-list li {
     color: #FFFFFF;
     font-size: 16px;
     position: relative;
 }
 
-header ul li a {
+header .header-list li a {
     display: flex;
     flex-direction: column;
     align-items: center;
