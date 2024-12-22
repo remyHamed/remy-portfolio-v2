@@ -31,60 +31,48 @@ export const CreateHomePage: React.FC = () :React.ReactNode => {
                             </p>
                         </div>
                         <div className="about-me-list-container">
-                            <ul className="about-me-list">
-                                <li>
-                                    <span>
-                                        Name:
-                                    </span>
-                                    <span>
-                                        Rémy Hamed
-                                    </span>
-                                </li>
-                                <li>
-                                    <span>
-                                        Date de naissance:
-                                    </span>
-                                    <span>
-                                        12/01/1993
-                                    </span>
-                                </li>
-                                <li>
-                                    <span>
-                                        Ville:
-                                    </span>
-                                    <span>
-                                        Puteaux
-                                    </span>
-                                </li>
-                                <li>
-                                    <span>
-                                        Zip code:
-                                    </span>
-                                    <span>
-                                        92800
-                                    </span>
-                                </li>
-                                <li>
-                                    <span>
-                                        Email:
-                                    </span>
-                                    <span>
-                                        hamedremy@hotmail.fr
-                                    </span>
-                                </li>
-                                <li>
-                                    <span>
-                                        téléphone:
-                                    </span>
-                                    <span>
-                                        06 66 27 11 79
-                                    </span>
-                                </li>   
-                            </ul>
+                            <table className="tab-list">
+                                <tbody>
+                                    <tr className="tab-list-element">
+                                        <td className="td-left">Name:</td>
+                                        <td  className="td-right">Rémy Hamed</td>
+                                    </tr>
+                                    <tr className="tab-list-element">
+                                        <td className="td-left" >Date de naissance:</td>
+                                        <td>12/01/1993</td>
+                                    </tr>
+                                    <tr className="tab-list-element">
+                                        <td className="td-left">Ville:</td>
+                                        <td>Puteaux</td>
+                                    </tr>
+                                    <tr className="tab-list-element">
+                                        <td className="td-left">Zip code:</td>
+                                        <td>92800</td>
+                                    </tr>
+                                    <tr className="tab-list-element">
+                                        <td className="td-left" >Email:</td>
+                                        <td>hamedremy@hotmail.fr</td>
+                                    </tr>
+                                    <tr className="tab-list-element">
+                                        <td className="td-left" >téléphone</td>
+                                        <td>06 66 27 11 79</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                         <div>
-                            <button>Télécharger mon cv</button>
+                            <button className="resume-button">Télécharger mon cv</button>
                         </div>
+                    </div>
+                </div>
+                <div className="item-3">
+                    <h1 className="item-3-back">Resume</h1>
+
+                    <div className="item-3-front">
+                        <h1 className="item-3-title">Resume</h1>
+                        <p  className="item-3-front-paragraphe">
+                            A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+                        </p>
                     </div>
                 </div>
             </main>
