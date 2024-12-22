@@ -148,6 +148,61 @@ $font-color-2: #ffbd39;
   padding-top: 0vh;
 }
 
+.item-4 {
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  margin-left: 5vh;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.square {
+  background: rgba(255, 255, 255, 0.1);
+  margin: 2vh;
+  padding: 3vh;
+}
+
+.year-diploma {
+  font-size: 26px;
+  color: $font-color-2;
+}
+
+.title-diploma {
+  font-size: 26px;
+  line-height: 1.5;
+  color: white;
+  font-weight: 400;
+}
+
+.school {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #999999;
+}
+
+.item-4-pargraphe {
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 16px;
+  color: #999999;
+  line-height: 1.5;
+}
+
+.resume-button-item-4 {
+  background-color: #ffbd39;
+  color: black;
+  border-radius: 30px;
+  margin-top: 2vh;
+  margin-left: 37%;
+  padding: 2vh 5vh 2vh 5vh;
+  font-weight: 900;
+}
 
 @media (max-width: 320px) {
 

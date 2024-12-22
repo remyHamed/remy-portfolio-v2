@@ -67,12 +67,76 @@ export const CreateHomePage: React.FC = () :React.ReactNode => {
                 </div>
                 <div className="item-3">
                     <h1 className="item-3-back">Resume</h1>
-
                     <div className="item-3-front">
                         <h1 className="item-3-title">Resume</h1>
                         <p  className="item-3-front-paragraphe">
                             A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
                         </p>
+                    </div>
+                </div>
+                <div className="item-4">
+                    <div className="row">
+                        <div className="square">
+                            <h2 className="year-diploma">
+                                2014-2015
+                            </h2>
+                            <h1 className="title-diploma">
+                                Master Degree of Design
+                            </h1>
+                            <h4 className="school">
+                                Cambridge University
+                            </h4>
+                            <p className="item-4-pargraphe">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus dolores quas, tenetur accusantium facilis delectus magni nobis vero. Maiores non expedita magni ab culpa, vero consequatur natus soluta eum ratione.
+                            </p>
+                        </div>
+                        <div className="square">
+                            <h2 className="year-diploma">
+                                2014-2015
+                            </h2>
+                            <h1 className="title-diploma">
+                                Master Degree of Design
+                            </h1>
+                            <h4 className="school">
+                                Cambridge University
+                            </h4>
+                            <p className="item-4-pargraphe">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus dolores quas, tenetur accusantium facilis delectus magni nobis vero. Maiores non expedita magni ab culpa, vero consequatur natus soluta eum ratione.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="square">
+                            <h2 className="year-diploma">
+                                2014-2015
+                            </h2>
+                            <h1 className="title-diploma">
+                                Master Degree of Design
+                            </h1>
+                            <h4 className="school">
+                                Cambridge University
+                            </h4>
+                            <p className="item-4-pargraphe">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus dolores quas, tenetur accusantium facilis delectus magni nobis vero. Maiores non expedita magni ab culpa, vero consequatur natus soluta eum ratione.
+                            </p>
+                        </div>
+                        <div className="square">
+                            <h2 className="year-diploma">
+                                2014-2015
+                            </h2>
+                            <h1 className="title-diploma">
+                                Master Degree of Design
+                            </h1>
+                            <h4 className="school">
+                                Cambridge University
+                            </h4>
+                            <p className="item-4-pargraphe">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus dolores quas, tenetur accusantium facilis delectus magni nobis vero. Maiores non expedita magni ab culpa, vero consequatur natus soluta eum ratione.
+                            </p>    
+                        </div>
+                    </div>
+                    <div>
+                        <button className="resume-button-item-4">Télécharger mon cv</button>
                     </div>
                 </div>
             </main>
