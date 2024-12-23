@@ -1,18 +1,12 @@
-import { useState } from "react";
 import { HeaderComponent } from "../../../presentation/components/header-component/header-component";
 
 export const CreateEducationAndTrainingPage: React.FC = ():React.ReactNode => {
     
-    const [showlinks, setShowlinks] = useState(false);
-
-    const handleShowLinks = () => {
-        setShowlinks((showlinks) => !showlinks);
-    }
     return(
         <>
-            <HeaderComponent showLinks={showlinks} />
+            <HeaderComponent/>
             <main className="container-home" >
-            <div className="navbar_burger" onClick={handleShowLinks}>
+            <div className="navbar_burger">
                     <div className="burger-bar"></div>
                     <div className="burger-bar"></div>
                     <div className="burger-bar"></div>
