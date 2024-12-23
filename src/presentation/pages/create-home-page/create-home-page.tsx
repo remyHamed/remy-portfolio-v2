@@ -78,13 +78,13 @@ export const CreateHomePage: React.FC = () :React.ReactNode => {
                     <div className="row">
                         <div className="square">
                             <h2 className="year-diploma">
-                                2014-2015
+                                2022-2024
                             </h2>
                             <h1 className="title-diploma">
-                                Master Degree of Design
+                                Master d'architecture logiciel, Informatique
                             </h1>
                             <h4 className="school">
-                                Cambridge University
+                                École Supérieure de Génie Informatique
                             </h4>
                             <p className="item-4-pargraphe">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus dolores quas, tenetur accusantium facilis delectus magni nobis vero. Maiores non expedita magni ab culpa, vero consequatur natus soluta eum ratione.
@@ -92,13 +92,13 @@ export const CreateHomePage: React.FC = () :React.ReactNode => {
                         </div>
                         <div className="square">
                             <h2 className="year-diploma">
-                                2014-2015
+                                2021-2022
                             </h2>
                             <h1 className="title-diploma">
-                                Master Degree of Design
+                                Bachelor chef de projet logiciel et réseau, Informatique
                             </h1>
                             <h4 className="school">
-                                Cambridge University
+                                École Supérieure de Génie Informatique
                             </h4>
                             <p className="item-4-pargraphe">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus dolores quas, tenetur accusantium facilis delectus magni nobis vero. Maiores non expedita magni ab culpa, vero consequatur natus soluta eum ratione.
@@ -108,13 +108,13 @@ export const CreateHomePage: React.FC = () :React.ReactNode => {
                     <div className="row">
                         <div className="square">
                             <h2 className="year-diploma">
-                                2014-2015
+                                2013-2016
                             </h2>
                             <h1 className="title-diploma">
-                                Master Degree of Design
+                                Licence histoire
                             </h1>
                             <h4 className="school">
-                                Cambridge University
+                                Nanterre Paris Ouest
                             </h4>
                             <p className="item-4-pargraphe">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus dolores quas, tenetur accusantium facilis delectus magni nobis vero. Maiores non expedita magni ab culpa, vero consequatur natus soluta eum ratione.
@@ -122,13 +122,13 @@ export const CreateHomePage: React.FC = () :React.ReactNode => {
                         </div>
                         <div className="square">
                             <h2 className="year-diploma">
-                                2014-2015
+                                2010-2011
                             </h2>
                             <h1 className="title-diploma">
-                                Master Degree of Design
+                                Baccalauréat science et technologie de la gestion option communication
                             </h1>
                             <h4 className="school">
-                                Cambridge University
+                                EREA Toulouse Lautrec
                             </h4>
                             <p className="item-4-pargraphe">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus dolores quas, tenetur accusantium facilis delectus magni nobis vero. Maiores non expedita magni ab culpa, vero consequatur natus soluta eum ratione.
