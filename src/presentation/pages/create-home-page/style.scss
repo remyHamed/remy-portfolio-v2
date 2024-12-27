@@ -118,6 +118,8 @@ $font-color-2: #ffbd39;
 
 .item-3 {
   margin-top: 15vh ;
+  display: flex;
+  text-align: justify;
 }
 
 .item-3-back {
@@ -134,7 +136,8 @@ $font-color-2: #ffbd39;
   z-index: 1;
   background-color: transparent;
   color: #FFFFFF;
-  margin-left: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .item-3-title {
@@ -154,6 +157,7 @@ $font-color-2: #ffbd39;
   flex-direction: column;
   justify-content:center;
   margin-left: 5vh;
+  width: 100%;
 }
 
 .row {
@@ -204,28 +208,27 @@ $font-color-2: #ffbd39;
   font-weight: 900;
 }
 
+.item-5-square {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .item-5 {
+    margin-left: 5vh;
+  }
+
 @media (max-width: 320px) {
 
-  .text-container {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-  
-
-  .div-2 div div img {
-    max-height: 50px;
+  .item-1 {
+    margin-top: 5vh ;
+    display: flex;
+    flex-direction: column;
   }
 
 }
 
 @media (min-width: 321px) and (max-width: 374px) {
-  .text-container {
-    padding: 1.5rem;
-  }
 
-  .div-2 div div img {
-    max-height: 70px;
-  }
 }
 
 @media (min-width: 375px) and (max-width: 424px) {
