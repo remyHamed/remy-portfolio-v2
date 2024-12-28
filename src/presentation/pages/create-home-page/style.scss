@@ -209,13 +209,59 @@ $font-color-2: #ffbd39;
 }
 
 .item-5-square {
-    display: flex;
-    flex-direction: row;
-  }
+  background: rgba(255, 255, 255, 0.1);
+  margin: 2vh;
+  padding: 3vh;
+  min-width: 240px;
+  font-size: 13px;
 
-  .item-5 {
-    margin-left: 5vh;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.item-5 {
+  margin-left: 5vh;
+}
+
+.item-5-square {
+  position: relative;
+  text-align: center; /* Center the text */
+  transition: background-color 0.3s ease; /* Smooth background transition */
+}
+
+.item-5-img {
+  max-height: 100px;
+  margin-left: 7vh;
+  fill: #ffbd39;
+  transition: filter 0.3s ease; 
+}
+
+.item-5-square:hover {
+  background-color: #ffbd39; /* Background becomes yellow on hover */
+}
+
+.item-5-square:hover .item-5-img g{ 
+  fill: white; /* Image turns white on hover */
+
+}
+
+.item-5-square h1 {
+  color: white; /* Initial text color */
+  transition: color 0.3s ease; /* Smooth text transition */
+}
+
+.item-5-square:hover h1 {
+  color: black; /* Text turns black on hover */
+}
+
+.service-title {
+  font-size: 16px;
+  color: white;
+  font-weight: 400;
+
+}
+
 
 @media (max-width: 320px) {
 
