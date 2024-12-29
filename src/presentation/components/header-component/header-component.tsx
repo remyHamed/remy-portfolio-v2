@@ -2,7 +2,7 @@ import React from "react";
 import "./style.scss";
 import { NavLink } from "react-router-dom";
 
-export const HeaderComponent: React.FC<{}> = ():React.ReactNode => {
+export const HeaderComponent: React.FC = ():React.ReactNode => {
     return (
         <header data-testid="header">
             <h1>Remy Portfolio</h1>
