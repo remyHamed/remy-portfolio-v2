@@ -72,7 +72,7 @@ $font-color-2: #ffbd39;
 }
 
 .text-container-about {
-  color: #FFFFFF;
+  color: $font-color-1;
 }
 
 .back {
@@ -135,14 +135,14 @@ $font-color-2: #ffbd39;
 .item-3-front *{
   z-index: 1;
   background-color: transparent;
-  color: #FFFFFF;
+  color: $font-color-1;
   margin-left: 10%;
   margin-right: 10%;
 }
 
 .item-3-title {
   font-size: 4vw;
-  color:#FFFFFF;
+  color:$font-color-1;
   font-weight: 450;
   margin-left: 40%;
 }
@@ -152,7 +152,7 @@ $font-color-2: #ffbd39;
 }
 
 .item-4 {
-  color: #FFFFFF;
+  color: $font-color-1;
   display: flex;
   flex-direction: column;
   justify-content:center;
@@ -199,7 +199,7 @@ $font-color-2: #ffbd39;
 }
 
 .resume-button-item-4 {
-  background-color: #ffbd39;
+  background-color: $font-color-2;
   color: black;
   border-radius: 30px;
   margin-top: 2vh;
@@ -226,38 +226,42 @@ $font-color-2: #ffbd39;
 
 .item-5-square {
   position: relative;
-  text-align: center; /* Center the text */
-  transition: background-color 0.3s ease; /* Smooth background transition */
+  text-align: center;
+  transition: background-color 0.3s ease;
 }
 
 .item-5-img {
   max-height: 100px;
-  margin-left: 7vh;
-  fill: #ffbd39;
+  margin-left: 5vh;
+  fill: $font-color-2;
   transition: filter 0.3s ease; 
 }
 
 .item-5-square:hover {
-  background-color: #ffbd39; /* Background becomes yellow on hover */
+  background-color: $font-color-2;
 }
 
 .item-5-square:hover .item-5-img g{ 
-  fill: white; /* Image turns white on hover */
+  fill: $font-color-1;
 
+}
+
+.item-5-square:hover .item-5-img path { 
+  fill: $font-color-1;
 }
 
 .item-5-square h1 {
-  color: white; /* Initial text color */
-  transition: color 0.3s ease; /* Smooth text transition */
+  color: $font-color-1; 
+  transition: color 0.3s ease; 
 }
 
 .item-5-square:hover h1 {
-  color: black; /* Text turns black on hover */
+  color: black;
 }
 
 .service-title {
   font-size: 16px;
-  color: white;
+  color: $font-color-1;
   font-weight: 400;
 
 }
