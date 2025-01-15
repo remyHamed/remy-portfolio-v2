@@ -1,5 +1,16 @@
 import { HeaderComponent } from "../../components/header-component/header-component";
 import gpc from "/src/assets/gpc_logo.png";
+import logo from "/src/assets/logo_jeux.png";
+import ship from "/src/assets/ship.png";
+import gerkin_logo from "/src/assets/slice-cucumber-icon-fresh-seeds-600nw-2162065399.webp";
+import php_logo from "/src/assets/stack_logo/php_PNG43.png";
+import type_script_logo from "/src/assets/stack_logo/typescript.svg";
+import python_logo from "/src/assets/stack_logo/python.png";
+import spring_boot from "/src/assets/stack_logo/spring-boot-logo-1.webp";
+import java_logo from "/src/assets/stack_logo/pngwing.com.png";
+import flutter from "/src/assets/flutter-brandlogo.net_.png";
+import symfony_logo from "/src/assets/stack_logo/symfony.png";
+import api_platform_logo from "/src/assets/stack_logo/Logo_Circle webby text blue.png";
 import "./style.scss";
 
 export const CreateHomePage: React.FC = () :React.ReactNode => {
@@ -37,44 +48,67 @@ export const CreateHomePage: React.FC = () :React.ReactNode => {
                             <h1 className="service-title">
                                 Gestion et Coordination de Coursiers front end
                             </h1>
-                            <button className="resume-button">repository</button>
+                            <button className="repo_button">repository</button>
+                            <div className="stack_div">
+                                <img src={flutter}/>
+                            </div>
                         </div>
                         <div className="item-7-square">
                             <img src={gpc} />
                             <h1 className="service-title">
                                 Gestion et Coordination de Coursiers back end
                             </h1>
-                            <button className="resume-button">repository</button>
+                            <button className="repo_button">repository</button>
+                            <div className="stack_div">
+                                <img src={java_logo}/>
+                                <img src={spring_boot}/>
+                            </div>
                         </div>
                         <div className="item-7-square">
-                            <img src={gpc} />
+                            <img src={logo} />
                             <h1 className="service-title">
-                                Développement d'une plateforme de jeux front end
+                                Plateforme de jeux front end
                             </h1>
-                            <button className="resume-button">repository</button>
+                            <button className="repo_button">repository</button>
+                            <div className="stack_div">
+                                <img src={type_script_logo}/>
+                            </div>
                         </div>
                     </div>
                     <div className="row-item-7">
                         <div className="item-7-square">
-                            <img src={gpc} />
+                            <img src={logo} />
                             <h1 className="service-title">
-                                Développement d'une plateforme de jeux back end
+                                Plateforme de jeux back end
                             </h1>
-                            <button className="resume-button">repository</button>
+                            <button className="repo_button">repository</button>
+                            <div className="stack_div">
+                                <img src={php_logo}/>
+                                <img src={symfony_logo}/>
+                                <img src={api_platform_logo}/>
+                            </div>
                         </div>
                         <div className="item-7-square">
-                            <img src={gpc} />
+                            <img src={ship} />
                             <h1 className="service-title">
-                                Responsive Design
+                                Apprentissage par Renforcement
                             </h1>
-                            <button className="resume-button">repository</button>
+                            <button className="repo_button">repository</button>
+                            <div className="stack_div">
+                                <img src={python_logo}/>
+                            </div>
                         </div>
                         <div className="item-7-square">
-                            <img src={gpc} />
+                            <img src={gerkin_logo} />
                             <h1 className="service-title">
-                                Responsive Design
+                                Projet Gherkin
                             </h1>
-                            <button className="resume-button">repository</button>
+                            <button className="repo_button">repository</button>
+                            <div className="stack_div">
+                                <img src={gerkin_logo}/>
+                                <img src={java_logo}/>
+                                <img src={spring_boot}/>
+                            </div>
                         </div>
                     </div>
                 </div>
