@@ -7,10 +7,11 @@ import php_logo from "/src/assets/stack_logo/php_PNG43.png";
 import type_script_logo from "/src/assets/stack_logo/typescript.svg";
 import python_logo from "/src/assets/stack_logo/python.png";
 import spring_boot from "/src/assets/stack_logo/spring-boot-logo-1.webp";
-import java_logo from "/src/assets/stack_logo/pngwing.com.png";
+import java_logo_2 from "/src/assets/stack_logo/731_java.jpg";
 import flutter from "/src/assets/flutter-brandlogo.net_.png";
 import symfony_logo from "/src/assets/stack_logo/symfony.png";
 import api_platform_logo from "/src/assets/stack_logo/Logo_Circle webby text blue.png";
+import flutter_logo_icon  from "/src/assets/stack_logo/flutter.svg";
 import "./style.scss";
 
 export const CreateHomePage: React.FC = () :React.ReactNode => {
@@ -50,7 +51,12 @@ export const CreateHomePage: React.FC = () :React.ReactNode => {
                             </h1>
                             <button className="repo_button">repository</button>
                             <div className="stack_div">
-                                <img src={flutter}/>
+                                <div>
+                                    <img src={flutter_logo_icon}/>
+                                </div>
+                                <div>
+                                    <p>#FLUTTER</p>
+                                </div>
                             </div>
                         </div>
                         <div className="item-7-square">
@@ -60,8 +66,14 @@ export const CreateHomePage: React.FC = () :React.ReactNode => {
                             </h1>
                             <button className="repo_button">repository</button>
                             <div className="stack_div">
-                                <img src={java_logo}/>
-                                <img src={spring_boot}/>
+                                <div>
+                                    <img src={java_logo_2}/>
+                                    <img src={spring_boot}/>
+                                </div>
+                                <div>
+                                    <p>#JAVA</p>
+                                    <p>#SPRING BOOT</p>
+                                </div>
                             </div>
                         </div>
                         <div className="item-7-square">
@@ -71,7 +83,12 @@ export const CreateHomePage: React.FC = () :React.ReactNode => {
                             </h1>
                             <button className="repo_button">repository</button>
                             <div className="stack_div">
-                                <img src={type_script_logo}/>
+                                <div>
+                                    <img src={type_script_logo}/>
+                                </div>
+                                <div>
+                                    <p>#TYPE SCRIPT</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -83,9 +100,16 @@ export const CreateHomePage: React.FC = () :React.ReactNode => {
                             </h1>
                             <button className="repo_button">repository</button>
                             <div className="stack_div">
-                                <img src={php_logo}/>
-                                <img src={symfony_logo}/>
-                                <img src={api_platform_logo}/>
+                                <div>
+                                    <img src={php_logo}/>
+                                    <img src={symfony_logo}/>
+                                    <img src={api_platform_logo}/>  
+                                </div>
+                               <div>
+                                    <p>#PHP</p>
+                                    <p>#SYMPHONY</p>
+                                    <p>#API_PLATFORM</p>
+                               </div>
                             </div>
                         </div>
                         <div className="item-7-square">
@@ -95,7 +119,13 @@ export const CreateHomePage: React.FC = () :React.ReactNode => {
                             </h1>
                             <button className="repo_button">repository</button>
                             <div className="stack_div">
-                                <img src={python_logo}/>
+                                <div>
+                                    <img src={python_logo}/>
+                                </div>
+                                <div>
+                                    <p>#PYTHON</p>
+                                </div>
+                                
                             </div>
                         </div>
                         <div className="item-7-square">
@@ -105,9 +135,16 @@ export const CreateHomePage: React.FC = () :React.ReactNode => {
                             </h1>
                             <button className="repo_button">repository</button>
                             <div className="stack_div">
-                                <img src={gerkin_logo}/>
-                                <img src={java_logo}/>
-                                <img src={spring_boot}/>
+                                <div>
+                                    <img src={gerkin_logo}/>
+                                    <img src={java_logo_2}/>
+                                    <img src={spring_boot}/>
+                                </div>
+                                <div>
+                                    <p>#GHERKIN</p>
+                                    <p>#JAVA</p>
+                                    <p>#SPRING BOOT</p>
+                                </div>
                             </div>
                         </div>
                     </div>

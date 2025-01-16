@@ -391,6 +391,16 @@ $font-color-2: #ffbd39;
 .stack_div img {
   width: 30px;
 }
+.stack_div > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.stack_div > div > p {
+  color: white;
+}
 
 @media (max-width: 320px) {
   .item-1 {
