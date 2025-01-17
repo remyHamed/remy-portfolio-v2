@@ -8,19 +8,20 @@ import type_script_logo from "/src/assets/stack_logo/typescript.svg";
 import python_logo from "/src/assets/stack_logo/python.png";
 import spring_boot from "/src/assets/stack_logo/spring-boot-logo-1.webp";
 import java_logo_2 from "/src/assets/stack_logo/731_java.jpg";
-import flutter from "/src/assets/flutter-brandlogo.net_.png";
 import symfony_logo from "/src/assets/stack_logo/symfony.png";
 import api_platform_logo from "/src/assets/stack_logo/Logo_Circle webby text blue.png";
 import flutter_logo_icon  from "/src/assets/stack_logo/flutter.svg";
+import mon_cv from "/src/file/cv_remy_hamed.pdf";
 import "./style.scss";
 
 export const CreateHomePage: React.FC = () :React.ReactNode => {
+
 
     return(
         <>
             <HeaderComponent />
             <main className="container-home" >
-                <div className="item-1">
+                <div className="item-1-greating">
                     <div className="text-greeting-container">
                         <span className="greeting">BONJOUR !</span>
                         <div className="white-text">
@@ -33,7 +34,7 @@ export const CreateHomePage: React.FC = () :React.ReactNode => {
 
                     </div>
                 </div>
-                <div className="item-6">
+                <div className="item-6-projects">
                     <h1 className="item-6-back">Mes Projets</h1>
                     <div className="item-6-front">
                         <h1 className="item-6-title">Mes Projets</h1>
@@ -149,7 +150,7 @@ export const CreateHomePage: React.FC = () :React.ReactNode => {
                         </div>
                     </div>
                 </div>
-                <div className="item-2">
+                <div className="item-2-about">
                     <div className="vertical-coding"></div>
                     <div className="text-container-about">
                         <h1 className="back">A propos</h1>
@@ -190,11 +191,11 @@ export const CreateHomePage: React.FC = () :React.ReactNode => {
                             </table>
                         </div>
                         <div>
-                            <button className="resume-button">Télécharger mon cv</button>
+                            <a href={mon_cv} download className="resume-button">Télécharger mon cv</a>
                         </div>
                     </div>
                 </div>
-                <div className="item-3">
+                <div className="item-3-resume">
                     <h1 className="item-3-back">Resume</h1>
                     <div className="item-3-front">
                         <h1 className="item-3-title">Resume</h1>
@@ -203,7 +204,7 @@ export const CreateHomePage: React.FC = () :React.ReactNode => {
                         </p>
                     </div>
                 </div>
-                <div className="item-4">
+                <div className="item-4-diploma">
                     <div className="row">
                         <div className="square">
                             <h2 className="year-diploma">
@@ -268,11 +269,11 @@ export const CreateHomePage: React.FC = () :React.ReactNode => {
                         <button className="resume-button-item-4">Télécharger mon cv</button>
                     </div>
                 </div>
-                <div className="item-3">
-                    <h1 className="item-3-back">Services</h1>
-                    <div className="item-3-front">
-                        <h1 className="item-3-title">Services</h1>
-                        <p  className="item-3-front-paragraphe">
+                <div className="item-8-service">
+                    <h1 className="item-8-back">Services</h1>
+                    <div className="item-8-front">
+                        <h1 className="item-8-title">Services</h1>
+                        <p  className="item-8-front-paragraphe">
                             A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
                         </p>
                     </div>

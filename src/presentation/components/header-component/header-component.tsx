@@ -1,37 +1,64 @@
 import React from "react";
 import "./style.scss";
-import { NavLink } from "react-router-dom";
 
-export const HeaderComponent: React.FC = ():React.ReactNode => {
+export const  HeaderComponent: React.FC = () => {
+
+    let element : HTMLElement | null;
+
     return (
         <header data-testid="header">
             <h1>Remy Portfolio</h1>
             <nav>
                 <ul className="header-list">
                     <li>
-                        <NavLink to="/">
+                        <button onClick={ () => {
+                            element = document.getElementsByClassName("item-1-greating")[0] as HTMLElement;
+                            if (element) {
+                                element.scrollIntoView({ behavior: "smooth" });
+                            }
+                        }}>
                             <p>Home</p>
-                        </NavLink>
+                        </button>
                     </li>
                     <li>
-                        <NavLink to="/education_and_training">
+                        <button onClick={ () => {
+                            element = document.getElementsByClassName("item-4-diploma")[0] as HTMLElement;
+                            if (element) {
+                                element.scrollIntoView({ behavior: "smooth" });
+                            }
+                        }}>
                             <p>Diplôme et Formation</p>
-                        </NavLink>
+                        </button>
                     </li>
                     <li>
-                        <NavLink to="/my_projects" end>
+                        <button onClick={ () => {
+                            element = document.getElementsByClassName("item-6-projects")[0] as HTMLElement;
+                            if (element) {
+                                element.scrollIntoView({ behavior: "smooth" });
+                            }
+                        }}>
                             <p>Mes Projets</p>
-                        </NavLink>
+                        </button>
                     </li>
                     <li>
-                        <NavLink to="/interests">
+                        <button onClick={ () => {
+                            element = document.getElementsByClassName("item-4-diploma")[0] as HTMLElement;
+                            if (element) {
+                                element.scrollIntoView({ behavior: "smooth" });
+                            }
+                        }}>
                             <p>Centre d'Intérêt</p>
-                        </NavLink>
+                        </button>
                     </li>
                     <li>
-                        <NavLink to="/contact">
+                        <button onClick={ () => {
+                            element = document.getElementsByClassName("item-4-diploma")[0] as HTMLElement;
+                            if (element) {
+                                element.scrollIntoView({ behavior: "smooth" });
+                            }
+                        }}>
                             <p>Contact</p>
-                        </NavLink>
+                        </button>
                     </li>
                 </ul>
             </nav>

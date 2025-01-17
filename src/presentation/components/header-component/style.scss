@@ -1,104 +1,114 @@
-header{
-    display: flex;
-    justify-content: space-between;
-    z-index: 3;
+header {
+  display: flex;
+  justify-content: space-between;
+  z-index: 3;
 }
 
 nav {
-    padding-right: 15%;
+  padding-right: 15%;
 }
 
 .header-list {
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 5vh;
-    padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 5vh;
+  padding: 0;
 }
 
 .header-list li p {
-    color: #FFFFFF;
-    font-size: 16px;
-    text-transform: uppercase;
-    margin: 0 0 1 0;
-    position: relative;
+  color: #ffffff;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 0 0 1 0;
+  position: relative;
 }
 
 .header-list li::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    width: 0;
-    height: 2px; 
-    background-color: #ffbd39;
-    transform: translateX(-50%);
-    transition: width 0.3s ease-in-out;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: #ffbd39;
+  transform: translateX(-50%);
+  transition: width 0.3s ease-in-out;
 }
 
 .header-list li:hover::after {
-    width: 100%;
+  width: 100%;
 }
 
 header h1 {
-    color: #FFFFFF;
-    font-size: 24px;
-    text-transform: uppercase;
-    padding-left: 22%;
-    margin-top: 3vh;
+  color: #ffffff;
+  font-size: 24px;
+  text-transform: uppercase;
+  padding-left: 22%;
+  margin-top: 3vh;
 }
 
 header .header-list li {
-    color: #FFFFFF;
-    font-size: 16px;
-    position: relative;
+  color: #ffffff;
+  font-size: 16px;
+  position: relative;
 }
 
 header .header-list li a {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-a, a:hover, a:focus, a:active {
-    text-decoration: none;
-    color: inherit;
-    display: flex;
-    flex-direction: row;
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: row;
 }
 
+header .header-list li button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  border-width: 0;
+}
 
-  @media (max-width: 320px) {
-  
-  }
-  
-  @media (min-width: 321px) and (max-width: 374px) {
-   
-  }
-  
-  @media (min-width: 375px) and (max-width: 424px) {
-    
-   
-  }
-  
-  @media (min-width: 425px) and (max-width: 767px) {
-  
-  }
-  
-  @media (min-width: 768px) and (max-width: 1023px) {
-    
-  }
-  
-  @media (min-width: 1024px) and (max-width: 1439px) {
-   
-  }
-  
-  @media (min-width: 1440px) and (max-width: 2559px) {
-  
-   
-  }
-  
-  @media (min-width: 2560px) {
-    
-  }
+button,
+button:hover,
+button:focus,
+button:active {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 320px) {
+}
+
+@media (min-width: 321px) and (max-width: 374px) {
+}
+
+@media (min-width: 375px) and (max-width: 424px) {
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+}
+
+@media (min-width: 1440px) and (max-width: 2559px) {
+}
+
+@media (min-width: 2560px) {
+}
