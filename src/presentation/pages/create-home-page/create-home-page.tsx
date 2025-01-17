@@ -16,7 +16,6 @@ import "./style.scss";
 
 export const CreateHomePage: React.FC = () :React.ReactNode => {
 
-
     return(
         <>
             <HeaderComponent />
@@ -184,14 +183,24 @@ export const CreateHomePage: React.FC = () :React.ReactNode => {
                                         <td>hamedremy@hotmail.fr</td>
                                     </tr>
                                     <tr className="tab-list-element">
-                                        <td className="td-left" >téléphone</td>
-                                        <td>06 66 27 11 79</td>
+                                        <td className="td-left" >
+                                            téléphone
+                                        </td>
+                                        <td>
+                                            06 66 27 11 79
+                                        </td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>
-                        <div>
-                            <a href={mon_cv} download className="resume-button">Télécharger mon cv</a>
+                        <div id="container-resume-button">
+                            <a
+                                href={mon_cv}
+                                download
+                                className="resume-button"
+                            >
+                                Télécharger mon cv
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -265,8 +274,13 @@ export const CreateHomePage: React.FC = () :React.ReactNode => {
                             </p>    
                         </div>
                     </div>
-                    <div>
-                        <button className="resume-button-item-4">Télécharger mon cv</button>
+                    <div id="container-resume-button-item-4">
+                        <a className="resume-button-item-4"
+                            href={mon_cv}
+                            download
+                        >
+                            Télécharger mon cv
+                        </a>
                     </div>
                 </div>
                 <div className="item-8-service">

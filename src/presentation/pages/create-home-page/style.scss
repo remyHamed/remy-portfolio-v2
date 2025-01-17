@@ -1,6 +1,13 @@
 $font-color-1: #ffffff;
 $golden_yellow: #ffbd39;
 
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+}
+
 .container-home {
   background-color: black;
   background-size: cover;
@@ -103,13 +110,20 @@ $golden_yellow: #ffbd39;
   border-spacing: 1.5vh;
 }
 
+#container-resume-button {
+  margin-top: 3vh;
+}
+
 .resume-button {
   background-color: $golden_yellow;
   color: black;
   border-radius: 20px;
   margin-top: 2vh;
-  margin-left: 30%;
+  margin-left: 20%;
+  margin-right: 30%;
   padding: 1vh;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .item-3-resume {
@@ -194,10 +208,14 @@ $golden_yellow: #ffbd39;
   line-height: 1.5;
 }
 
+#container-resume-button-item-4 {
+  margin-top: 5vh;
+}
+
 .resume-button-item-4 {
   background-color: $golden_yellow;
   color: black;
-  border-radius: 30px;
+  border-radius: 40px;
   margin-top: 2vh;
   margin-left: 37%;
   padding: 2vh 5vh 2vh 5vh;
