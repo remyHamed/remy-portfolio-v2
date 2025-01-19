@@ -26,7 +26,7 @@ a:active {
 }
 
 .text-greeting-container {
-  margin-top: 5vh;
+  margin-top: 8vh;
 }
 
 .greeting {
@@ -179,6 +179,21 @@ a:active {
   background: rgba(255, 255, 255, 0.1);
   margin: 2vh;
   padding: 3vh;
+  width: 50%;
+}
+
+.school-link {
+  border-radius: 30px;
+  color: $golden_yellow;
+  width: fit-content;
+  padding: 2vh;
+}
+
+.school-link:hover {
+  color: black;
+  border-width: 1px;
+  border-color: $golden_yellow;
+  background-color: $golden_yellow;
 }
 
 .year-diploma {
@@ -217,7 +232,7 @@ a:active {
   color: black;
   border-radius: 40px;
   margin-top: 2vh;
-  margin-left: 37%;
+  margin-left: 33%;
   padding: 2vh 5vh 2vh 5vh;
   font-weight: 900;
 }

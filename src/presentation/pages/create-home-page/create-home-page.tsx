@@ -26,7 +26,7 @@ export const CreateHomePage: React.FC = () :React.ReactNode => {
                         <div className="white-text">
                             Je suis 
                             <span className="yellow-text"> Remy Hamed</span>
-                            , développeur front-end et back-end.
+                            , développeur full-stack.
                         </div>
                     </div>
                     <div className="illustration_coding">
@@ -38,7 +38,7 @@ export const CreateHomePage: React.FC = () :React.ReactNode => {
                     <div className="item-6-front">
                         <h1 className="item-6-title">Mes Projets</h1>
                         <p  className="item-6-front-paragraphe">
-                            A smalllriver named Duden flow by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+                        Découvrez ici une sélection de mes projets, illustrant mes compétences et mon savoir-faire dans le développement front-end et back-end.
                         </p>
                     </div>
                 </div>
@@ -49,7 +49,19 @@ export const CreateHomePage: React.FC = () :React.ReactNode => {
                             <h1 className="service-title">
                                 Gestion et Coordination de Coursiers front end
                             </h1>
-                            <button className="repo_button">repository</button>
+                            <button
+                                onClick={
+                                    ()=> {
+                                        window.open(
+                                            "https://github.com/Grand-Paris-Courses/grandparis-coursier",
+                                            "_blank"
+                                        )
+                                    }
+                                }
+                                className="repo_button"
+                            >
+                                repository
+                            </button>
                             <div className="stack_div">
                                 <div>
                                     <img src={flutter_logo_icon}/>
@@ -64,7 +76,19 @@ export const CreateHomePage: React.FC = () :React.ReactNode => {
                             <h1 className="service-title">
                                 Gestion et Coordination de Coursiers back end
                             </h1>
-                            <button className="repo_button">repository</button>
+                            <button
+                                onClick={
+                                    ()=> {
+                                        window.open(
+                                            "https://github.com/Grand-Paris-Courses/grandparis-back",
+                                            "_blank"
+                                        )
+                                    }
+                                }
+                                className="repo_button"
+                            >
+                                repository
+                            </button>
                             <div className="stack_div">
                                 <div>
                                     <img src={java_logo_2}/>
@@ -81,7 +105,19 @@ export const CreateHomePage: React.FC = () :React.ReactNode => {
                             <h1 className="service-title">
                                 Plateforme de jeux front end
                             </h1>
-                            <button className="repo_button">repository</button>
+                            <button
+                                onClick={
+                                    ()=> {
+                                        window.open(
+                                            "https://github.com/Game7-ESGI-2023-PA/game7-app",
+                                            "_blank"
+                                        )
+                                    }
+                                }
+                                className="repo_button"
+                            >
+                                repository
+                            </button>
                             <div className="stack_div">
                                 <div>
                                     <img src={type_script_logo}/>
@@ -98,7 +134,19 @@ export const CreateHomePage: React.FC = () :React.ReactNode => {
                             <h1 className="service-title">
                                 Plateforme de jeux back end
                             </h1>
-                            <button className="repo_button">repository</button>
+                            <button
+                                onClick={
+                                    ()=> {
+                                        window.open(
+                                            "https://github.com/Game7-ESGI-2023-PA/game7-api",
+                                            "_blank"
+                                        )
+                                    }
+                                }
+                                className="repo_button"
+                            >
+                                repository
+                            </button>
                             <div className="stack_div">
                                 <div>
                                     <img src={php_logo}/>
@@ -117,7 +165,19 @@ export const CreateHomePage: React.FC = () :React.ReactNode => {
                             <h1 className="service-title">
                                 Apprentissage par Renforcement
                             </h1>
-                            <button className="repo_button">repository</button>
+                            <button
+                                 onClick={
+                                    ()=> {
+                                        window.open(
+                                            "https://github.com/remyHamed/shoothemUp",
+                                            "_blank"
+                                        )
+                                    }
+                                }
+                                className="repo_button"
+                            >
+                                repository
+                            </button>
                             <div className="stack_div">
                                 <div>
                                     <img src={python_logo}/>
@@ -133,7 +193,19 @@ export const CreateHomePage: React.FC = () :React.ReactNode => {
                             <h1 className="service-title">
                                 Projet Gherkin
                             </h1>
-                            <button className="repo_button">repository</button>
+                            <button
+                                 onClick={
+                                    ()=> {
+                                        window.open(
+                                            "https://github.com/ShanAZIZ/EsgiBddGameOfLife",
+                                            "_blank"
+                                        )
+                                    }
+                                }
+                                className="repo_button"
+                            >
+                                repository
+                            </button>
                             <div className="stack_div">
                                 <div>
                                     <img src={gerkin_logo}/>
@@ -209,7 +281,7 @@ export const CreateHomePage: React.FC = () :React.ReactNode => {
                     <div className="item-3-front">
                         <h1 className="item-3-title">Resume</h1>
                         <p  className="item-3-front-paragraphe">
-                            A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+                            Découvrez mon parcours académique, jalonné de diplômes en informatique et en histoire, qui témoignent de ma polyvalence et de ma passion pour l'apprentissage continu.
                         </p>
                     </div>
                 </div>
@@ -226,7 +298,20 @@ export const CreateHomePage: React.FC = () :React.ReactNode => {
                                 École Supérieure de Génie Informatique
                             </h4>
                             <p className="item-4-pargraphe">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus dolores quas, tenetur accusantium facilis delectus magni nobis vero. Maiores non expedita magni ab culpa, vero consequatur natus soluta eum ratione.
+                                Le Mastère en Architecture des Logiciels de l'ESGI est une formation de deux ans visant à former des experts capables de concevoir, développer et gérer des applications logicielles robustes et évolutives. Ce programme met l'accent sur l'apprentissage pratique à travers des workshops, des projets professionnels et une alternance obligatoire, permettant aux étudiants d'acquérir une maîtrise avancée des langages de programmation tels que Java, C# et des technologies comme JEE et .NET.
+                            </p>
+                            <p
+                                className="school-link"
+                                onClick={
+                                    ()=> {
+                                        window.open(
+                                            "https://www.esgi.fr/programmes/architecture-logiciels.html",
+                                            "_blank"
+                                        )
+                                    }
+                                }
+                            >
+                                @ESGI
                             </p>
                         </div>
                         <div className="square">
@@ -240,7 +325,20 @@ export const CreateHomePage: React.FC = () :React.ReactNode => {
                                 École Supérieure de Génie Informatique
                             </h4>
                             <p className="item-4-pargraphe">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus dolores quas, tenetur accusantium facilis delectus magni nobis vero. Maiores non expedita magni ab culpa, vero consequatur natus soluta eum ratione.
+                                Le Bachelor en Architecture des Logiciels de l'ESGI est une formation intensive d'un an destinée aux personnes en reconversion professionnelle, titulaires d'un niveau Bac à Bac+2. Ce programme offre une solide base théorique et des compétences opérationnelles en conception, développement et déploiement d'applications multi-plateformes. Les étudiants maîtrisent les principaux langages de programmation tels que Java, PHP et JavaScript, et acquièrent des compétences en gestion de projets informatiques. 
+                            </p>
+                            <p
+                                className="school-link"
+                                onClick={
+                                    ()=> {
+                                        window.open(
+                                            "https://www.esgi.fr/programmes/architecture-logiciels.html",
+                                            "_blank"
+                                        )
+                                    }
+                                }
+                            >
+                                @ESGI
                             </p>
                         </div>
                     </div>
@@ -250,13 +348,25 @@ export const CreateHomePage: React.FC = () :React.ReactNode => {
                                 2013-2016
                             </h2>
                             <h1 className="title-diploma">
-                                Licence histoire
-                            </h1>
+                                Baccalauréat science et technologie de la gestion option communication                            </h1>
                             <h4 className="school">
                                 Nanterre Paris Ouest
                             </h4>
                             <p className="item-4-pargraphe">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus dolores quas, tenetur accusantium facilis delectus magni nobis vero. Maiores non expedita magni ab culpa, vero consequatur natus soluta eum ratione.
+                                J'ai suivi une licence d'histoire à l'Université Paris Nanterre (Paris Ouest), où j'ai eu l'opportunité d'être formé par des professeurs remarquables tels que Didier Musiedlak, spécialiste du fascisme et du nazisme, et Hervé Inglebert. Leur enseignement m'a profondément marqué et m'a permis de développer une réflexion critique et une compréhension approfondie des enjeux historiques et politiques.
+                            </p>
+                            <p 
+                                className="school-link"
+                                onClick={
+                                    ()=> {
+                                        window.open(
+                                            "https://formations.parisnanterre.fr/fr/formations-2025-2026/les-formations/licence-lmd-03/histoire-licence-JWQC346Z.html",
+                                            "_blank"
+                                        )
+                                    }
+                                }
+                            >
+                                @ParisNanterre
                             </p>
                         </div>
                         <div className="square">
@@ -270,8 +380,21 @@ export const CreateHomePage: React.FC = () :React.ReactNode => {
                                 EREA Toulouse Lautrec
                             </h4>
                             <p className="item-4-pargraphe">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus dolores quas, tenetur accusantium facilis delectus magni nobis vero. Maiores non expedita magni ab culpa, vero consequatur natus soluta eum ratione.
-                            </p>    
+                                J'ai obtenu un baccalauréat STG (Sciences et Technologies de la Gestion) au lycée Toulouse Lautrec, un établissement unique qui accueille à la fois des élèves valides et en situation de handicap. Cette immersion dans un environnement inclusif m'a permis de développer une grande ouverture d'esprit et une sensibilité particulière aux enjeux de l'accessibilité et de la diversité. En parallèle, j'ai acquis des compétences solides en gestion et en communication, me préparant ainsi à de futurs défis professionnels avec une approche humaine et bienveillante.
+                            </p>
+                            <p
+                                className="school-link"
+                                onClick={
+                                    ()=> {
+                                        window.open(
+                                            "https://lyc-erea-toulouse-lautrec-vaucresson.ac-versailles.fr/",
+                                            "_blank"
+                                        )
+                                    }
+                                }
+                            >
+                                @EREA Toulouse Lautrec
+                            </p>
                         </div>
                     </div>
                     <div id="container-resume-button-item-4">
@@ -288,7 +411,7 @@ export const CreateHomePage: React.FC = () :React.ReactNode => {
                     <div className="item-8-front">
                         <h1 className="item-8-title">Services</h1>
                         <p  className="item-8-front-paragraphe">
-                            A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+                            Je propose une gamme de services alliant développement web, applications desktop et mobiles, architecture logicielle et conception responsive, afin de répondre à vos besoins numériques.
                         </p>
                     </div>
                 </div>
