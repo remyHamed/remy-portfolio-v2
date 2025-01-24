@@ -16,18 +16,14 @@ import "./style.scss";
 
 export const CreateHomePage: React.FC = () :React.ReactNode => {
 
-    const scrollTpTheTopbutton :  HTMLElement = document.getElementById("btn") as HTMLElement;
-
     const scrollTpTheTop = () =>{
         window.scrollTo({top: 0, behavior: 'smooth'});
     }
 
-
-
     return(
         <>
             <button
-            onClick={(e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => scrollTpTheTop()}
+            onClick={scrollTpTheTop}
             id="btn" title="Retour en haut de page"
                 >
                 revenir en haut
