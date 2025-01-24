@@ -16,8 +16,22 @@ import "./style.scss";
 
 export const CreateHomePage: React.FC = () :React.ReactNode => {
 
+    const scrollTpTheTopbutton :  HTMLElement = document.getElementById("btn") as HTMLElement;
+
+    const scrollTpTheTop = () =>{
+        window.scrollTo({top: 0, behavior: 'smooth'});
+    }
+
+
+
     return(
         <>
+            <button
+            onClick={(e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => scrollTpTheTop()}
+            id="btn" title="Retour en haut de page"
+                >
+                revenir en haut
+            </button>
             <HeaderComponent />
             <main className="container-home" >
                 <div className="item-1-greating">
@@ -45,7 +59,9 @@ export const CreateHomePage: React.FC = () :React.ReactNode => {
                 <div className="item-7">
                     <div className="row-item-7">
                         <div className="item-7-square">
-                            <img src={gpc} />
+                            <img 
+                                src={gpc} 
+                            />
                             <h1 className="service-title">
                                 Gestion et Coordination de Coursiers front end
                             </h1>

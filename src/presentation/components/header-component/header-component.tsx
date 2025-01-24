@@ -28,18 +28,6 @@ export const  HeaderComponent: React.FC = () => {
                     </li>
                     <li>
                         <button onClick={ () => {
-                            element = document.getElementsByClassName("item-4-diploma")[0] as HTMLElement;
-                            if (element) {
-                                element.scrollIntoView({ behavior: "smooth" });
-                            }
-                        }}>
-                            <p>
-                                Diplôme et Formation
-                            </p>
-                        </button>
-                    </li>
-                    <li>
-                        <button onClick={ () => {
                             element = document.getElementsByClassName("item-6-projects")[0] as HTMLElement;
                             if (element) {
                                 element.scrollIntoView({ behavior: "smooth" });
@@ -58,7 +46,19 @@ export const  HeaderComponent: React.FC = () => {
                             }
                         }}>
                             <p>
-                                Centre d'Intérêt
+                                Diplôme et Formation
+                            </p>
+                        </button>
+                    </li>
+                    <li>
+                        <button onClick={ () => {
+                            element = document.getElementsByClassName("item-2-about")[0] as HTMLElement;
+                            if (element) {
+                                element.scrollIntoView({ behavior: "smooth" });
+                            }
+                        }}>
+                            <p>
+                                A propos
                             </p>
                         </button>
                     </li>
