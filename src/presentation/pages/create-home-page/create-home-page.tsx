@@ -360,7 +360,8 @@ export const CreateHomePage: React.FC = () :React.ReactNode => {
                                 2013-2016
                             </h2>
                             <h1 className="title-diploma">
-                                Baccalauréat science et technologie de la gestion option communication                            </h1>
+                                Licence Histoire
+                            </h1>
                             <h4 className="school">
                                 Nanterre Paris Ouest
                             </h4>
