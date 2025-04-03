@@ -1,0 +1,87 @@
+$golden_yellow: #ffbd39;
+$font-color-1: #ffffff;
+
+.item-7 {
+  margin-left: 5vh;
+
+  animation: vertical-appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.row-item-7 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.item-7-square > img {
+  border-radius: 20px;
+  height: 240px;
+}
+
+.repo_button {
+  background-color: $golden_yellow;
+  color: white;
+  border-radius: 20px;
+  margin: auto;
+  padding: 1vh;
+  font-weight: bold;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.item-7-square-a {
+  flex: 30;
+  position: relative;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.item-7-square-b {
+  flex: 60;
+  position: relative;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.item-7-img {
+  max-height: 100px;
+  margin-left: 5vh;
+  fill: $golden_yellow;
+  transition: filter 0.3s ease;
+}
+
+.item-7-square h1 {
+  color: $font-color-1;
+  transition: color 0.3s ease;
+  font-weight: bold;
+}
+
+.item-7-square:hover h1 {
+  color: $golden_yellow;
+}
+
+.service-title {
+  font-size: 16px;
+  color: $font-color-1;
+  font-weight: 400;
+}
+
+.stack_div {
+  border-radius: 20px;
+  padding: 1vh;
+}
+
+.stack_div img {
+  width: 30px;
+}
+.stack_div > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.stack_div > div > p {
+  color: white;
+}

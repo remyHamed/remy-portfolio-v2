@@ -58,19 +58,7 @@ export const  HeaderComponent: React.FC = () => {
                             }
                         }}>
                             <p>
-                                A propos
-                            </p>
-                        </button>
-                    </li>
-                    <li>
-                        <button onClick={ () => {
-                            element = document.getElementsByClassName("item-4-diploma")[0] as HTMLElement;
-                            if (element) {
-                                element.scrollIntoView({ behavior: "smooth" });
-                            }
-                        }}>
-                            <p>
-                                Contact
+                                A propos/Contact
                             </p>
                         </button>
                     </li>
