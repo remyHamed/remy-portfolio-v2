@@ -173,7 +173,7 @@ export const  Item5Component: React.FC = () => {
                         width="100.000000pt"
                         height="100.000000pt"
                         viewBox="0 0 512 512"
-                        enable-background="new 0 0 512 512">
+                        enableBackground="new 0 0 512 512">
                         <g id="iphone" fill="#ffbd39">
                         </g>
                         <path  d="M464.068,111.809H52.56v0.001c-6.471,0-11.766,5.294-11.766,11.766v268.849

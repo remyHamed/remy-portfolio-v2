@@ -6,10 +6,7 @@ $font-color-1: #ffffff;
   display: flex;
   flex-direction: row;
   gap: 5vh;
-
-  animation: latteral-appear linear;
-  animation-timeline: view();
-  animation-range: entry 0% cover 40%;
+  overflow: hidden;
 }
 
 .text-greeting-container {
@@ -44,4 +41,45 @@ $font-color-1: #ffffff;
   background-position: -200px 0;
   background-repeat: no-repeat;
   background-size: auto;
+}
+
+.text-greeting-container,
+.illustration_coding {
+  will-change: transform, opacity;
+}
+
+@media (max-width: 320px) {
+}
+
+@media (min-width: 321px) and (max-width: 374px) {
+}
+
+@media (min-width: 375px) and (max-width: 424px) {
+  .div-2 div div img {
+    max-height: 70px;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+  .div-2 div div img {
+    max-height: 75px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .div-2 div div img {
+    max-height: 120px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .div-2 div div img {
+    max-height: 150px;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 2559px) {
+}
+
+@media (min-width: 2560px) {
 }
