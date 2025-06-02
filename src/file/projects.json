@@ -1,65 +1,65 @@
 [
   {
-    "image": "/src/assets/gpc_logo.png",
+    "image": "remy-portefolio-v2/assets/gpc_logo.png",
     "title": "Gestion et Coordination de Coursiers front end",
     "repoUrl": "https://github.com/Grand-Paris-Courses/grandparis-coursier",
     "stack": {
-      "icons": ["/src/assets/stack_logo/flutter.svg"],
+      "icons": ["remy-portefolio-v2/assets/stack_logo/flutter.svg"],
       "labels": ["FLUTTER"]
     }
   },
   {
-    "image": "/src/assets/gpc_logo.png",
+    "image": "remy-portefolio-v2/assets/gpc_logo.png",
     "title": "Gestion et Coordination de Coursiers back end",
     "repoUrl": "https://github.com/Grand-Paris-Courses/grandparis-back",
     "stack": {
       "icons": [
-        "/src/assets/stack_logo/731_java.jpg",
-        "/src/assets/stack_logo/spring-boot-logo-1.webp"
+        "remy-portefolio-v2/assets/stack_logo/731_java.jpg",
+        "remy-portefolio-v2/assets/stack_logo/spring-boot-logo-1.webp"
       ],
       "labels": ["JAVA", "SPRING BOOT"]
     }
   },
   {
-    "image": "/src/assets/logo_jeux.png",
+    "image": "remy-portefolio-v2/assets/logo_jeux.png",
     "title": "Plateforme de jeux front end",
     "repoUrl": "https://github.com/Game7-ESGI-2023-PA/game7-app",
     "stack": {
-      "icons": ["/src/assets/stack_logo/typescript.svg"],
+      "icons": ["remy-portefolio-v2/assets/stack_logo/typescript.svg"],
       "labels": ["TYPE SCRIPT"]
     }
   },
   {
-    "image": "/src/assets/logo_jeux.png",
+    "image": "remy-portefolio-v2/assets/logo_jeux.png",
     "title": "Plateforme de jeux back end",
     "repoUrl": "https://github.com/Game7-ESGI-2023-PA/game7-api",
     "stack": {
       "icons": [
-        "/src/assets/stack_logo/php_PNG43.png",
-        "/src/assets/stack_logo/symfony.png",
-        "/src/assets/stack_logo/Logo_Circle webby text blue.png"
+        "remy-portefolio-v2/assets/stack_logo/php_PNG43.png",
+        "remy-portefolio-v2/assets/stack_logo/symfony.png",
+        "remy-portefolio-v2/assets/stack_logo/Logo_Circle webby text blue.png"
       ],
       "labels": ["PHP", "SYMPHONY", "API_PLATFORM"]
     }
   },
   {
-    "image": "/src/assets/ship.png",
+    "image": "remy-portefolio-v2/assets/ship.png",
     "title": "Apprentissage par Renforcement",
     "repoUrl": "https://github.com/remyHamed/shoothemUp",
     "stack": {
-      "icons": ["/src/assets/stack_logo/python.png"],
+      "icons": ["remy-portefolio-v2/assets/stack_logo/python.png"],
       "labels": ["PYTHON"]
     }
   },
   {
-    "image": "/src/assets/slice-cucumber-icon-fresh-seeds-600nw-2162065399.webp",
+    "image": "remy-portefolio-v2/assets/slice-cucumber-icon-fresh-seeds-600nw-2162065399.webp",
     "title": "Projet Gherkin",
     "repoUrl": "https://github.com/ShanAZIZ/EsgiBddGameOfLife",
     "stack": {
       "icons": [
-        "/src/assets/slice-cucumber-icon-fresh-seeds-600nw-2162065399.webp",
-        "/src/assets/stack_logo/731_java.jpg",
-        "/src/assets/stack_logo/spring-boot-logo-1.webp"
+        "remy-portefolio-v2/assets/slice-cucumber-icon-fresh-seeds-600nw-2162065399.webp",
+        "remy-portefolio-v2/assets/stack_logo/731_java.jpg",
+        "remy-portefolio-v2/assets/stack_logo/spring-boot-logo-1.webp"
       ],
       "labels": ["GHERKIN", "JAVA", "SPRING BOOT"]
     }

@@ -1,7 +1,8 @@
 import React from "react";
-import { CardComponent } from "../../components/cardComponent/cardComponent";
-import projects from "/src/file/projects.json";
+import projects from "../../../file/projects.json";
 import "./style.scss";
+import { CardComponent } from "@/presentation/components/cardComponent/cardComponent";
+
 
 export const ProjectsCardComponent: React.FC = () => {
   return (

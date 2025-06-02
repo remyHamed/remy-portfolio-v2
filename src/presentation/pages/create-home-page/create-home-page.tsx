@@ -1,13 +1,13 @@
-import { HeaderComponent } from "../../components/header-component/header-component";
-import { Item5Component } from "../../components/item-5-component/item-5-component";
-import { GreetingItemComponent } from "../../components/greetingItemComponent/greetingItemComponent";
-import { ProjectsComponent } from "../../components/projectsComponent/projectsComponent";
-import { ProjectsCardComponent } from "../../components/projectsCardComponent/projectsCardComponent";
-import { AboutMeComponent } from "../../components/aboutMeComponent/aboutMeComponent";
-import { ResumeTitleComponent } from "../../components/resumeTitleComponent/resumeTitleComponent";
-import { ServicesTitleComponent } from "../../components/servicesTitleComponent/servicesTitleComponent";
-import { DiplomaComponent } from "../../components/diplomaComponent/diplomaComponent";
+import { HeaderComponent } from "@/presentation/components/header-component/header-component";
 import "./style.scss";
+import { GreetingItemComponent } from "@/presentation/components/greetingItemComponent/greetingItemComponent";
+import { ProjectsComponent } from "@/presentation/components/projectsComponent/projectsComponent";
+import { ProjectsCardComponent } from "@/presentation/components/projectsCardComponent/projectsCardComponent";
+import { AboutMeComponent } from "@/presentation/components/aboutMeComponent/aboutMeComponent";
+import { ResumeTitleComponent } from "@/presentation/components/resumeTitleComponent/resumeTitleComponent";
+import { DiplomaComponent } from "@/presentation/components/diplomaComponent/diplomaComponent";
+import { Item5Component } from "@/presentation/components/item-5-component/item-5-component";
+import { ServicesTitleComponent } from "@/presentation/components/servicesTitleComponent/servicesTitleComponent";
 
 
 export const CreateHomePage: React.FC = () :React.ReactNode => {
