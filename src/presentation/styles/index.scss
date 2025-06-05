@@ -5,7 +5,18 @@ $MediumColor: #4f772d;
 $MediumLightColor: #90a955;
 $LightColor: #ecf39e;
 $White: #ffffff;
-$Warn:rgb(134, 0, 0);
+$Warn: rgb(134, 0, 0);
+$golden_yellow: #ffbd39;
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: row;
+}
 
 * {
   box-sizing: border-box;

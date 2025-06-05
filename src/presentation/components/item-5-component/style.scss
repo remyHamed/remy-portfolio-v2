@@ -1,0 +1,61 @@
+$golden_yellow: #ffbd39;
+$font-color-1: #ffffff;
+
+.item-5-square {
+  background: rgba(255, 255, 255, 0.1);
+  margin: 2vh;
+  padding: 3vh;
+  min-width: 240px;
+  font-size: 13px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  position: relative;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.item-5 {
+  margin-left: 5vh;
+}
+
+.item-5-img {
+  max-height: 100px;
+  margin-left: 5vh;
+  fill: $golden_yellow;
+  transition: filter 0.3s ease;
+}
+
+.item-5-square:hover {
+  background-color: $golden_yellow;
+}
+
+.item-5-square:hover .item-5-img g {
+  fill: $font-color-1;
+}
+
+.item-5-square:hover .item-5-img path {
+  fill: $font-color-1;
+}
+
+.item-5-square h1 {
+  color: $font-color-1;
+  transition: color 0.3s ease;
+}
+
+.item-5-square:hover h1 {
+  color: black;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.service-title {
+  font-size: 16px;
+  color: $font-color-1;
+  font-weight: 400;
+}
