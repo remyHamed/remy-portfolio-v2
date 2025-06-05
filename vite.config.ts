@@ -4,7 +4,7 @@ import path from "path";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/remy-portefolio-v2",
+  base: "/remy-portfolio-v2/",
   build: {
     outDir: "dist",
     rollupOptions: {
