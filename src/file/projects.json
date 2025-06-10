@@ -9,7 +9,7 @@
     }
   },
   {
-    "image": "remy-portefolio-v2/assets/gpc_logo.png",
+    "image": "./assets/gpc_logo.png",
     "title": "Gestion et Coordination de Coursiers back end",
     "repoUrl": "https://github.com/Grand-Paris-Courses/grandparis-back",
     "stack": {
