@@ -43,7 +43,7 @@
     }
   },
   {
-    "image": "remy-portefolio-v2/assets/ship.png",
+    "image": "./remy-portefolio-v2/assets/ship.png",
     "title": "Apprentissage par Renforcement",
     "repoUrl": "https://github.com/remyHamed/shoothemUp",
     "stack": {
